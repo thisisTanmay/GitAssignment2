@@ -3487,3 +3487,52 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 !ENTRY com.salesforce.ide.core 2 0 2017-05-11 20:48:50.656
 !MESSAGE  WARN [2017-05-11 20:48:50,655] (ProjectService.java:handleRetrieveResult:2087) - Nothing to save to project - retrieve result is empty
 
+!SESSION 2017-05-11 21:19:55.492 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-05-11 21:20:03.605
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-05-11 21:20:20.311
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\tanmay.hole'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.salesforce.ide.core 2 0 2017-05-11 21:21:54.975
+!MESSAGE  WARN [2017-05-11 21:21:54,955] (ProjectService.java:handleDeployResult:1917) - Save failed!
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-05-11 21:21:54.995
+!MESSAGE  WARN [2017-05-11 21:21:54,995] (ProjectService.java:handleRetrieveResult:2087) - Nothing to save to project - retrieve result is empty
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-05-11 21:22:23.839
+!MESSAGE  WARN [2017-05-11 21:22:23,839] (ProjectService.java:handleDeployResult:1917) - Save failed!
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-05-11 21:22:23.849
+!MESSAGE  WARN [2017-05-11 21:22:23,849] (ProjectService.java:handleRetrieveResult:2087) - Nothing to save to project - retrieve result is empty
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-05-11 21:23:08.532
+!MESSAGE  WARN [2017-05-11 21:23:08,522] (ProjectService.java:handleDeployResult:1917) - Save failed!
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-05-11 21:23:08.543
+!MESSAGE  WARN [2017-05-11 21:23:08,542] (ProjectService.java:handleRetrieveResult:2087) - Nothing to save to project - retrieve result is empty
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-05-11 21:23:32.748
+!MESSAGE  WARN [2017-05-11 21:23:32,747] (ProjectService.java:handleDeployResult:1917) - Save failed!
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-05-11 21:23:32.753
+!MESSAGE  WARN [2017-05-11 21:23:32,753] (ProjectService.java:handleRetrieveResult:2087) - Nothing to save to project - retrieve result is empty
+
