@@ -1,0 +1,9 @@
+public abstract class MyAbstractClass
+{
+    public virtual abstract absmethod()
+    {
+    } 
+    
+    
+    
+}

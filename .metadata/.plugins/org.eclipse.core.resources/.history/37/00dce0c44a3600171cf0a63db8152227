@@ -1,0 +1,30 @@
+public with sharing class Operation 
+{
+    public static void performOperation(String s)
+    {
+        system.debug(s);
+        
+        String target ='@';
+        String replacewith ='A';
+        
+        String s2 = s.replace(target,replacewith);
+        system.debug('Replace @ with A: '+s2);
+        
+        stringSpilt = s2.split(' ');
+		system.debug(stringSpilt);
+		
+        
+        String delWhite=s2.deleteWhitespace();
+        system.debug(delWhite);
+        
+        String substring = s.substring(11);
+        system.debug(substring);
+        
+        String Upper = s2.toUpperCase();
+        system.debug(Upper);
+        
+        String Lower = Upper.toLowerCase();
+        system.debug(Lower);
+    }
+    
+}

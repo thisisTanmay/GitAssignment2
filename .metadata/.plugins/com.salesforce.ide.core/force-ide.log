@@ -1,0 +1,758 @@
+ WARN [2017-05-10 16:15:56,781] (ConnectionFactory.java:clearCache:217) - No cached connections
+ WARN [2017-05-10 16:15:56,812] (DescribeObjectRegistry.java:clearCache:660) - No cached describes
+ WARN [2017-05-10 16:15:56,814] (MetadataFactory.java:clearCache:125) - No cached metadata stubs
+ WARN [2017-05-10 16:25:15,976] (BaseRetryAspect.java:isLoginExceptionRetryable:115) - Login evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out. Are you at a new location? When accessing Salesforce--either via a desktop client or the API--from outside of your company’s trusted networks, you must add a security token to your password to log in. To get your new security token, log in to Salesforce. From your personal settings, enter Reset My Security Token in the Quick Find box, then select Reset My Security Token.
+ WARN [2017-05-10 16:25:16,008] (BaseRetryAspect.java:isConnectionExceptionRetryable:150) - Connection evaluation deemed exception not retry-able:
+ LoginFault: Invalid username, password, security token; or user locked out. Are you at a new location? When accessing Salesforce--either via a desktop client or the API--from outside of your company’s trusted networks, you must add a security token to your password to log in. To get your new security token, log in to Salesforce. From your personal settings, enter Reset My Security Token in the Quick Find box, then select Reset My Security Token.
+ WARN [2017-05-10 16:25:16,009] (ProjectController.java:getRemotePackageNames:930) - Unable to get project packages for project 'Project1': Invalid username, password, security token; or user locked out. Are you at a new location? When accessing Salesforce--either via a desktop client or the API--from outside of your company’s trusted networks, you must add a security token to your password to log in. To get your new security token, log in to Salesforce. From your personal settings, enter Reset My Security Token in the Quick Find box, then select Reset My Security Token.
+ WARN [2017-05-10 16:25:16,035] (ProjectOrganizationPage.java:prepareNextPage:263) - Unable to login: Invalid username, password, security token; or user locked out. Are you at a new location? When accessing Salesforce--either via a desktop client or the API--from outside of your company’s trusted networks, you must add a security token to your password to log in. To get your new security token, log in to Salesforce. From your personal settings, enter Reset My Security Token in the Quick Find box, then select Reset My Security Token.
+ WARN [2017-05-10 16:31:13,381] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'Certificate': Unable to get bean for id 'Certificate'
+ WARN [2017-05-10 16:31:13,383] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'AuraDefinitionBundle': Unable to get bean for id 'AuraDefinitionBundle'
+ WARN [2017-05-10 16:31:13,392] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ExternalDataSource': Unable to get bean for id 'ExternalDataSource'
+ WARN [2017-05-10 16:31:13,393] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'NamedCredential': Unable to get bean for id 'NamedCredential'
+ WARN [2017-05-10 16:31:13,398] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'GlobalPicklist': Unable to get bean for id 'GlobalPicklist'
+ WARN [2017-05-10 16:31:13,427] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CustomFeedFilter': Unable to get bean for id 'CustomFeedFilter'
+ WARN [2017-05-10 16:31:13,452] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'FlowDefinition': Unable to get bean for id 'FlowDefinition'
+ WARN [2017-05-10 16:31:13,493] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'MatchingRules': Unable to get bean for id 'MatchingRules'
+ WARN [2017-05-10 16:31:13,497] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ChannelLayout': Unable to get bean for id 'ChannelLayout'
+ WARN [2017-05-10 16:31:13,499] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SharingRules': Unable to get bean for id 'SharingRules'
+ WARN [2017-05-10 16:31:13,506] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'DelegateGroup': Unable to get bean for id 'DelegateGroup'
+ WARN [2017-05-10 16:31:13,511] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CorsWhitelistOrigin': Unable to get bean for id 'CorsWhitelistOrigin'
+ WARN [2017-05-10 16:31:13,513] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ActionLinkGroupTemplate': Unable to get bean for id 'ActionLinkGroupTemplate'
+ WARN [2017-05-10 16:31:13,517] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'TransactionSecurityPolicy': Unable to get bean for id 'TransactionSecurityPolicy'
+ WARN [2017-05-10 16:31:13,518] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SynonymDictionary': Unable to get bean for id 'SynonymDictionary'
+ WARN [2017-05-10 16:31:13,520] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PathAssistant': Unable to get bean for id 'PathAssistant'
+ WARN [2017-05-10 16:31:13,522] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'LeadConvertSettings': Unable to get bean for id 'LeadConvertSettings'
+ WARN [2017-05-10 16:31:13,523] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PlatformCachePartition': Unable to get bean for id 'PlatformCachePartition'
+ WARN [2017-05-10 16:31:14,564] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'Certificate': Unable to get bean for id 'Certificate'
+ WARN [2017-05-10 16:31:14,566] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'AuraDefinitionBundle': Unable to get bean for id 'AuraDefinitionBundle'
+ WARN [2017-05-10 16:31:14,569] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ExternalDataSource': Unable to get bean for id 'ExternalDataSource'
+ WARN [2017-05-10 16:31:14,581] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'NamedCredential': Unable to get bean for id 'NamedCredential'
+ WARN [2017-05-10 16:31:14,584] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'GlobalPicklist': Unable to get bean for id 'GlobalPicklist'
+ WARN [2017-05-10 16:31:14,588] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CustomFeedFilter': Unable to get bean for id 'CustomFeedFilter'
+ WARN [2017-05-10 16:31:14,595] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'FlowDefinition': Unable to get bean for id 'FlowDefinition'
+ WARN [2017-05-10 16:31:14,598] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'MatchingRules': Unable to get bean for id 'MatchingRules'
+ WARN [2017-05-10 16:31:14,600] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ChannelLayout': Unable to get bean for id 'ChannelLayout'
+ WARN [2017-05-10 16:31:14,601] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SharingRules': Unable to get bean for id 'SharingRules'
+ WARN [2017-05-10 16:31:14,602] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'DelegateGroup': Unable to get bean for id 'DelegateGroup'
+ WARN [2017-05-10 16:31:14,604] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CorsWhitelistOrigin': Unable to get bean for id 'CorsWhitelistOrigin'
+ WARN [2017-05-10 16:31:14,605] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ActionLinkGroupTemplate': Unable to get bean for id 'ActionLinkGroupTemplate'
+ WARN [2017-05-10 16:31:14,606] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'TransactionSecurityPolicy': Unable to get bean for id 'TransactionSecurityPolicy'
+ WARN [2017-05-10 16:31:14,607] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SynonymDictionary': Unable to get bean for id 'SynonymDictionary'
+ WARN [2017-05-10 16:31:14,607] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PathAssistant': Unable to get bean for id 'PathAssistant'
+ WARN [2017-05-10 16:31:14,608] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'LeadConvertSettings': Unable to get bean for id 'LeadConvertSettings'
+ WARN [2017-05-10 16:31:14,609] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PlatformCachePartition': Unable to get bean for id 'PlatformCachePartition'
+ WARN [2017-05-10 16:31:23,779] (Utils.java:loadDocument:800) - Unable to load document: C:\Users\tanmay.hole\workspace\.metadata\.plugins\com.salesforce.ide.core\packageCache.xml (The system cannot find the file specified)
+ WARN [2017-05-10 16:31:24,802] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'Certificate': Unable to get bean for id 'Certificate'
+ WARN [2017-05-10 16:31:24,805] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'AuraDefinitionBundle': Unable to get bean for id 'AuraDefinitionBundle'
+ WARN [2017-05-10 16:31:24,809] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ExternalDataSource': Unable to get bean for id 'ExternalDataSource'
+ WARN [2017-05-10 16:31:24,811] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'NamedCredential': Unable to get bean for id 'NamedCredential'
+ WARN [2017-05-10 16:31:24,815] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'GlobalPicklist': Unable to get bean for id 'GlobalPicklist'
+ WARN [2017-05-10 16:31:24,821] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CustomFeedFilter': Unable to get bean for id 'CustomFeedFilter'
+ WARN [2017-05-10 16:31:24,826] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'FlowDefinition': Unable to get bean for id 'FlowDefinition'
+ WARN [2017-05-10 16:31:24,847] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'MatchingRules': Unable to get bean for id 'MatchingRules'
+ WARN [2017-05-10 16:31:24,849] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ChannelLayout': Unable to get bean for id 'ChannelLayout'
+ WARN [2017-05-10 16:31:24,851] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SharingRules': Unable to get bean for id 'SharingRules'
+ WARN [2017-05-10 16:31:24,856] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'DelegateGroup': Unable to get bean for id 'DelegateGroup'
+ WARN [2017-05-10 16:31:24,857] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CorsWhitelistOrigin': Unable to get bean for id 'CorsWhitelistOrigin'
+ WARN [2017-05-10 16:31:24,860] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ActionLinkGroupTemplate': Unable to get bean for id 'ActionLinkGroupTemplate'
+ WARN [2017-05-10 16:31:24,862] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'TransactionSecurityPolicy': Unable to get bean for id 'TransactionSecurityPolicy'
+ WARN [2017-05-10 16:31:24,863] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SynonymDictionary': Unable to get bean for id 'SynonymDictionary'
+ WARN [2017-05-10 16:31:24,864] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PathAssistant': Unable to get bean for id 'PathAssistant'
+ WARN [2017-05-10 16:31:24,866] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'LeadConvertSettings': Unable to get bean for id 'LeadConvertSettings'
+ WARN [2017-05-10 16:31:24,867] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PlatformCachePartition': Unable to get bean for id 'PlatformCachePartition'
+ WARN [2017-05-10 16:31:25,881] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'Certificate': Unable to get bean for id 'Certificate'
+ WARN [2017-05-10 16:31:25,882] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'AuraDefinitionBundle': Unable to get bean for id 'AuraDefinitionBundle'
+ WARN [2017-05-10 16:31:25,885] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ExternalDataSource': Unable to get bean for id 'ExternalDataSource'
+ WARN [2017-05-10 16:31:25,887] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'NamedCredential': Unable to get bean for id 'NamedCredential'
+ WARN [2017-05-10 16:31:25,889] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'GlobalPicklist': Unable to get bean for id 'GlobalPicklist'
+ WARN [2017-05-10 16:31:25,893] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CustomFeedFilter': Unable to get bean for id 'CustomFeedFilter'
+ WARN [2017-05-10 16:31:25,897] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'FlowDefinition': Unable to get bean for id 'FlowDefinition'
+ WARN [2017-05-10 16:31:25,905] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'MatchingRules': Unable to get bean for id 'MatchingRules'
+ WARN [2017-05-10 16:31:25,907] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ChannelLayout': Unable to get bean for id 'ChannelLayout'
+ WARN [2017-05-10 16:31:25,910] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SharingRules': Unable to get bean for id 'SharingRules'
+ WARN [2017-05-10 16:31:25,912] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'DelegateGroup': Unable to get bean for id 'DelegateGroup'
+ WARN [2017-05-10 16:31:25,913] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CorsWhitelistOrigin': Unable to get bean for id 'CorsWhitelistOrigin'
+ WARN [2017-05-10 16:31:25,915] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ActionLinkGroupTemplate': Unable to get bean for id 'ActionLinkGroupTemplate'
+ WARN [2017-05-10 16:31:25,916] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'TransactionSecurityPolicy': Unable to get bean for id 'TransactionSecurityPolicy'
+ WARN [2017-05-10 16:31:25,917] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SynonymDictionary': Unable to get bean for id 'SynonymDictionary'
+ WARN [2017-05-10 16:31:25,918] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PathAssistant': Unable to get bean for id 'PathAssistant'
+ WARN [2017-05-10 16:31:25,919] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'LeadConvertSettings': Unable to get bean for id 'LeadConvertSettings'
+ WARN [2017-05-10 16:31:25,920] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PlatformCachePartition': Unable to get bean for id 'PlatformCachePartition'
+ WARN [2017-05-10 16:31:26,922] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'Certificate': Unable to get bean for id 'Certificate'
+ WARN [2017-05-10 16:31:26,923] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'AuraDefinitionBundle': Unable to get bean for id 'AuraDefinitionBundle'
+ WARN [2017-05-10 16:31:26,927] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ExternalDataSource': Unable to get bean for id 'ExternalDataSource'
+ WARN [2017-05-10 16:31:26,928] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'NamedCredential': Unable to get bean for id 'NamedCredential'
+ WARN [2017-05-10 16:31:26,930] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'GlobalPicklist': Unable to get bean for id 'GlobalPicklist'
+ WARN [2017-05-10 16:31:26,932] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CustomFeedFilter': Unable to get bean for id 'CustomFeedFilter'
+ WARN [2017-05-10 16:31:26,937] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'FlowDefinition': Unable to get bean for id 'FlowDefinition'
+ WARN [2017-05-10 16:31:26,940] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'MatchingRules': Unable to get bean for id 'MatchingRules'
+ WARN [2017-05-10 16:31:26,943] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ChannelLayout': Unable to get bean for id 'ChannelLayout'
+ WARN [2017-05-10 16:31:26,952] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SharingRules': Unable to get bean for id 'SharingRules'
+ WARN [2017-05-10 16:31:26,954] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'DelegateGroup': Unable to get bean for id 'DelegateGroup'
+ WARN [2017-05-10 16:31:26,955] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CorsWhitelistOrigin': Unable to get bean for id 'CorsWhitelistOrigin'
+ WARN [2017-05-10 16:31:26,958] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ActionLinkGroupTemplate': Unable to get bean for id 'ActionLinkGroupTemplate'
+ WARN [2017-05-10 16:31:26,960] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'TransactionSecurityPolicy': Unable to get bean for id 'TransactionSecurityPolicy'
+ WARN [2017-05-10 16:31:26,962] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SynonymDictionary': Unable to get bean for id 'SynonymDictionary'
+ WARN [2017-05-10 16:31:26,963] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PathAssistant': Unable to get bean for id 'PathAssistant'
+ WARN [2017-05-10 16:31:26,964] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'LeadConvertSettings': Unable to get bean for id 'LeadConvertSettings'
+ WARN [2017-05-10 16:31:26,965] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PlatformCachePartition': Unable to get bean for id 'PlatformCachePartition'
+ WARN [2017-05-10 16:31:27,970] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'Certificate': Unable to get bean for id 'Certificate'
+ WARN [2017-05-10 16:31:27,972] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'AuraDefinitionBundle': Unable to get bean for id 'AuraDefinitionBundle'
+ WARN [2017-05-10 16:31:27,974] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ExternalDataSource': Unable to get bean for id 'ExternalDataSource'
+ WARN [2017-05-10 16:31:27,976] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'NamedCredential': Unable to get bean for id 'NamedCredential'
+ WARN [2017-05-10 16:31:27,978] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'GlobalPicklist': Unable to get bean for id 'GlobalPicklist'
+ WARN [2017-05-10 16:31:27,982] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CustomFeedFilter': Unable to get bean for id 'CustomFeedFilter'
+ WARN [2017-05-10 16:31:27,986] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'FlowDefinition': Unable to get bean for id 'FlowDefinition'
+ WARN [2017-05-10 16:31:27,991] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'MatchingRules': Unable to get bean for id 'MatchingRules'
+ WARN [2017-05-10 16:31:27,993] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ChannelLayout': Unable to get bean for id 'ChannelLayout'
+ WARN [2017-05-10 16:31:27,994] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SharingRules': Unable to get bean for id 'SharingRules'
+ WARN [2017-05-10 16:31:27,996] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'DelegateGroup': Unable to get bean for id 'DelegateGroup'
+ WARN [2017-05-10 16:31:27,997] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CorsWhitelistOrigin': Unable to get bean for id 'CorsWhitelistOrigin'
+ WARN [2017-05-10 16:31:27,998] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ActionLinkGroupTemplate': Unable to get bean for id 'ActionLinkGroupTemplate'
+ WARN [2017-05-10 16:31:28,000] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'TransactionSecurityPolicy': Unable to get bean for id 'TransactionSecurityPolicy'
+ WARN [2017-05-10 16:31:28,001] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SynonymDictionary': Unable to get bean for id 'SynonymDictionary'
+ WARN [2017-05-10 16:31:28,002] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PathAssistant': Unable to get bean for id 'PathAssistant'
+ WARN [2017-05-10 16:31:28,003] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'LeadConvertSettings': Unable to get bean for id 'LeadConvertSettings'
+ WARN [2017-05-10 16:31:28,004] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PlatformCachePartition': Unable to get bean for id 'PlatformCachePartition'
+ WARN [2017-05-10 16:31:28,976] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'Certificate': Unable to get bean for id 'Certificate'
+ WARN [2017-05-10 16:31:28,977] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'AuraDefinitionBundle': Unable to get bean for id 'AuraDefinitionBundle'
+ WARN [2017-05-10 16:31:28,980] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ExternalDataSource': Unable to get bean for id 'ExternalDataSource'
+ WARN [2017-05-10 16:31:28,982] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'NamedCredential': Unable to get bean for id 'NamedCredential'
+ WARN [2017-05-10 16:31:28,984] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'GlobalPicklist': Unable to get bean for id 'GlobalPicklist'
+ WARN [2017-05-10 16:31:28,986] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CustomFeedFilter': Unable to get bean for id 'CustomFeedFilter'
+ WARN [2017-05-10 16:31:28,989] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'FlowDefinition': Unable to get bean for id 'FlowDefinition'
+ WARN [2017-05-10 16:31:28,992] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'MatchingRules': Unable to get bean for id 'MatchingRules'
+ WARN [2017-05-10 16:31:28,994] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ChannelLayout': Unable to get bean for id 'ChannelLayout'
+ WARN [2017-05-10 16:31:28,995] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SharingRules': Unable to get bean for id 'SharingRules'
+ WARN [2017-05-10 16:31:28,997] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'DelegateGroup': Unable to get bean for id 'DelegateGroup'
+ WARN [2017-05-10 16:31:28,998] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CorsWhitelistOrigin': Unable to get bean for id 'CorsWhitelistOrigin'
+ WARN [2017-05-10 16:31:28,999] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ActionLinkGroupTemplate': Unable to get bean for id 'ActionLinkGroupTemplate'
+ WARN [2017-05-10 16:31:29,000] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'TransactionSecurityPolicy': Unable to get bean for id 'TransactionSecurityPolicy'
+ WARN [2017-05-10 16:31:29,001] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SynonymDictionary': Unable to get bean for id 'SynonymDictionary'
+ WARN [2017-05-10 16:31:29,002] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PathAssistant': Unable to get bean for id 'PathAssistant'
+ WARN [2017-05-10 16:31:29,003] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'LeadConvertSettings': Unable to get bean for id 'LeadConvertSettings'
+ WARN [2017-05-10 16:31:29,004] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PlatformCachePartition': Unable to get bean for id 'PlatformCachePartition'
+ WARN [2017-05-10 16:31:46,173] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ActionLinkGroupTemplate': Unable to get bean for id 'ActionLinkGroupTemplate'
+ WARN [2017-05-10 16:31:46,186] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'AuraDefinitionBundle': Unable to get bean for id 'AuraDefinitionBundle'
+ WARN [2017-05-10 16:31:46,190] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'BusinessProcess': Unable to get bean for id 'BusinessProcess'
+ WARN [2017-05-10 16:31:46,193] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'Certificate': Unable to get bean for id 'Certificate'
+ WARN [2017-05-10 16:31:46,196] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ChannelLayout': Unable to get bean for id 'ChannelLayout'
+ WARN [2017-05-10 16:31:46,199] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CompactLayout': Unable to get bean for id 'CompactLayout'
+ WARN [2017-05-10 16:31:46,201] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CorsWhitelistOrigin': Unable to get bean for id 'CorsWhitelistOrigin'
+ WARN [2017-05-10 16:31:46,206] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CustomFeedFilter': Unable to get bean for id 'CustomFeedFilter'
+ WARN [2017-05-10 16:31:46,208] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CustomField': Unable to get bean for id 'CustomField'
+ WARN [2017-05-10 16:31:46,214] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CustomLabel': Unable to get bean for id 'CustomLabel'
+ WARN [2017-05-10 16:31:46,710] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'Certificate': Unable to get bean for id 'Certificate'
+ WARN [2017-05-10 16:31:46,711] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'AuraDefinitionBundle': Unable to get bean for id 'AuraDefinitionBundle'
+ WARN [2017-05-10 16:31:46,712] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ExternalDataSource': Unable to get bean for id 'ExternalDataSource'
+ WARN [2017-05-10 16:31:46,713] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'NamedCredential': Unable to get bean for id 'NamedCredential'
+ WARN [2017-05-10 16:31:46,715] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'GlobalPicklist': Unable to get bean for id 'GlobalPicklist'
+ WARN [2017-05-10 16:31:46,717] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CustomFeedFilter': Unable to get bean for id 'CustomFeedFilter'
+ WARN [2017-05-10 16:31:46,719] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'FlowDefinition': Unable to get bean for id 'FlowDefinition'
+ WARN [2017-05-10 16:31:46,724] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'MatchingRules': Unable to get bean for id 'MatchingRules'
+ WARN [2017-05-10 16:31:46,725] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ChannelLayout': Unable to get bean for id 'ChannelLayout'
+ WARN [2017-05-10 16:31:46,727] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SharingRules': Unable to get bean for id 'SharingRules'
+ WARN [2017-05-10 16:31:46,728] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'DelegateGroup': Unable to get bean for id 'DelegateGroup'
+ WARN [2017-05-10 16:31:46,729] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CorsWhitelistOrigin': Unable to get bean for id 'CorsWhitelistOrigin'
+ WARN [2017-05-10 16:31:46,731] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ActionLinkGroupTemplate': Unable to get bean for id 'ActionLinkGroupTemplate'
+ WARN [2017-05-10 16:31:46,732] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'TransactionSecurityPolicy': Unable to get bean for id 'TransactionSecurityPolicy'
+ WARN [2017-05-10 16:31:46,733] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SynonymDictionary': Unable to get bean for id 'SynonymDictionary'
+ WARN [2017-05-10 16:31:46,734] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PathAssistant': Unable to get bean for id 'PathAssistant'
+ WARN [2017-05-10 16:31:46,735] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'LeadConvertSettings': Unable to get bean for id 'LeadConvertSettings'
+ WARN [2017-05-10 16:31:46,736] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PlatformCachePartition': Unable to get bean for id 'PlatformCachePartition'
+ WARN [2017-05-10 16:31:47,215] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'DelegateGroup': Unable to get bean for id 'DelegateGroup'
+ WARN [2017-05-10 16:31:47,727] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'Certificate': Unable to get bean for id 'Certificate'
+ WARN [2017-05-10 16:31:47,729] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'AuraDefinitionBundle': Unable to get bean for id 'AuraDefinitionBundle'
+ WARN [2017-05-10 16:31:47,733] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ExternalDataSource': Unable to get bean for id 'ExternalDataSource'
+ WARN [2017-05-10 16:31:47,734] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'NamedCredential': Unable to get bean for id 'NamedCredential'
+ WARN [2017-05-10 16:31:47,736] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'GlobalPicklist': Unable to get bean for id 'GlobalPicklist'
+ WARN [2017-05-10 16:31:47,739] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CustomFeedFilter': Unable to get bean for id 'CustomFeedFilter'
+ WARN [2017-05-10 16:31:47,741] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'FlowDefinition': Unable to get bean for id 'FlowDefinition'
+ WARN [2017-05-10 16:31:47,745] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'MatchingRules': Unable to get bean for id 'MatchingRules'
+ WARN [2017-05-10 16:31:47,746] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ChannelLayout': Unable to get bean for id 'ChannelLayout'
+ WARN [2017-05-10 16:31:47,747] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SharingRules': Unable to get bean for id 'SharingRules'
+ WARN [2017-05-10 16:31:47,748] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'DelegateGroup': Unable to get bean for id 'DelegateGroup'
+ WARN [2017-05-10 16:31:47,750] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CorsWhitelistOrigin': Unable to get bean for id 'CorsWhitelistOrigin'
+ WARN [2017-05-10 16:31:47,751] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ActionLinkGroupTemplate': Unable to get bean for id 'ActionLinkGroupTemplate'
+ WARN [2017-05-10 16:31:47,752] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'TransactionSecurityPolicy': Unable to get bean for id 'TransactionSecurityPolicy'
+ WARN [2017-05-10 16:31:47,753] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SynonymDictionary': Unable to get bean for id 'SynonymDictionary'
+ WARN [2017-05-10 16:31:47,754] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PathAssistant': Unable to get bean for id 'PathAssistant'
+ WARN [2017-05-10 16:31:47,755] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'LeadConvertSettings': Unable to get bean for id 'LeadConvertSettings'
+ WARN [2017-05-10 16:31:47,756] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PlatformCachePartition': Unable to get bean for id 'PlatformCachePartition'
+ WARN [2017-05-10 16:31:48,736] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'Certificate': Unable to get bean for id 'Certificate'
+ WARN [2017-05-10 16:31:48,738] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'AuraDefinitionBundle': Unable to get bean for id 'AuraDefinitionBundle'
+ WARN [2017-05-10 16:31:48,740] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ExternalDataSource': Unable to get bean for id 'ExternalDataSource'
+ WARN [2017-05-10 16:31:48,742] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'NamedCredential': Unable to get bean for id 'NamedCredential'
+ WARN [2017-05-10 16:31:48,743] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'GlobalPicklist': Unable to get bean for id 'GlobalPicklist'
+ WARN [2017-05-10 16:31:48,747] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CustomFeedFilter': Unable to get bean for id 'CustomFeedFilter'
+ WARN [2017-05-10 16:31:48,751] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'FlowDefinition': Unable to get bean for id 'FlowDefinition'
+ WARN [2017-05-10 16:31:48,755] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'MatchingRules': Unable to get bean for id 'MatchingRules'
+ WARN [2017-05-10 16:31:48,757] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ChannelLayout': Unable to get bean for id 'ChannelLayout'
+ WARN [2017-05-10 16:31:48,779] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SharingRules': Unable to get bean for id 'SharingRules'
+ WARN [2017-05-10 16:31:48,781] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'DelegateGroup': Unable to get bean for id 'DelegateGroup'
+ WARN [2017-05-10 16:31:48,783] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CorsWhitelistOrigin': Unable to get bean for id 'CorsWhitelistOrigin'
+ WARN [2017-05-10 16:31:48,784] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ActionLinkGroupTemplate': Unable to get bean for id 'ActionLinkGroupTemplate'
+ WARN [2017-05-10 16:31:48,785] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'TransactionSecurityPolicy': Unable to get bean for id 'TransactionSecurityPolicy'
+ WARN [2017-05-10 16:31:48,786] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SynonymDictionary': Unable to get bean for id 'SynonymDictionary'
+ WARN [2017-05-10 16:31:48,787] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PathAssistant': Unable to get bean for id 'PathAssistant'
+ WARN [2017-05-10 16:31:48,788] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'LeadConvertSettings': Unable to get bean for id 'LeadConvertSettings'
+ WARN [2017-05-10 16:31:48,789] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PlatformCachePartition': Unable to get bean for id 'PlatformCachePartition'
+ WARN [2017-05-10 16:31:49,299] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ExternalDataSource': Unable to get bean for id 'ExternalDataSource'
+ WARN [2017-05-10 16:31:49,303] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'FieldSet': Unable to get bean for id 'FieldSet'
+ WARN [2017-05-10 16:31:49,310] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'FlowDefinition': Unable to get bean for id 'FlowDefinition'
+ WARN [2017-05-10 16:31:49,313] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'GlobalPicklist': Unable to get bean for id 'GlobalPicklist'
+ WARN [2017-05-10 16:31:49,324] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'LeadConvertSettings': Unable to get bean for id 'LeadConvertSettings'
+ WARN [2017-05-10 16:31:49,327] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ListView': Unable to get bean for id 'ListView'
+ WARN [2017-05-10 16:31:49,330] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'MatchingRule': Unable to get bean for id 'MatchingRule'
+ WARN [2017-05-10 16:31:49,332] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'MatchingRules': Unable to get bean for id 'MatchingRules'
+ WARN [2017-05-10 16:31:49,334] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'NamedCredential': Unable to get bean for id 'NamedCredential'
+ WARN [2017-05-10 16:31:49,336] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PathAssistant': Unable to get bean for id 'PathAssistant'
+ WARN [2017-05-10 16:31:49,339] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PlatformCachePartition': Unable to get bean for id 'PlatformCachePartition'
+ WARN [2017-05-10 16:31:49,344] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'RecordType': Unable to get bean for id 'RecordType'
+ WARN [2017-05-10 16:31:49,831] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'Certificate': Unable to get bean for id 'Certificate'
+ WARN [2017-05-10 16:31:49,832] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'AuraDefinitionBundle': Unable to get bean for id 'AuraDefinitionBundle'
+ WARN [2017-05-10 16:31:49,835] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ExternalDataSource': Unable to get bean for id 'ExternalDataSource'
+ WARN [2017-05-10 16:31:49,837] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'NamedCredential': Unable to get bean for id 'NamedCredential'
+ WARN [2017-05-10 16:31:49,839] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'GlobalPicklist': Unable to get bean for id 'GlobalPicklist'
+ WARN [2017-05-10 16:31:49,844] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CustomFeedFilter': Unable to get bean for id 'CustomFeedFilter'
+ WARN [2017-05-10 16:31:49,847] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'FlowDefinition': Unable to get bean for id 'FlowDefinition'
+ WARN [2017-05-10 16:31:49,855] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'MatchingRules': Unable to get bean for id 'MatchingRules'
+ WARN [2017-05-10 16:31:49,857] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ChannelLayout': Unable to get bean for id 'ChannelLayout'
+ WARN [2017-05-10 16:31:49,859] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SharingRules': Unable to get bean for id 'SharingRules'
+ WARN [2017-05-10 16:31:49,863] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'DelegateGroup': Unable to get bean for id 'DelegateGroup'
+ WARN [2017-05-10 16:31:49,865] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CorsWhitelistOrigin': Unable to get bean for id 'CorsWhitelistOrigin'
+ WARN [2017-05-10 16:31:49,866] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ActionLinkGroupTemplate': Unable to get bean for id 'ActionLinkGroupTemplate'
+ WARN [2017-05-10 16:31:49,867] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'TransactionSecurityPolicy': Unable to get bean for id 'TransactionSecurityPolicy'
+ WARN [2017-05-10 16:31:49,869] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SynonymDictionary': Unable to get bean for id 'SynonymDictionary'
+ WARN [2017-05-10 16:31:49,907] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PathAssistant': Unable to get bean for id 'PathAssistant'
+ WARN [2017-05-10 16:31:49,909] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'LeadConvertSettings': Unable to get bean for id 'LeadConvertSettings'
+ WARN [2017-05-10 16:31:49,910] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PlatformCachePartition': Unable to get bean for id 'PlatformCachePartition'
+ WARN [2017-05-10 16:31:50,415] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SharingCriteriaRule': Unable to get bean for id 'SharingCriteriaRule'
+ WARN [2017-05-10 16:31:50,418] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SharingOwnerRule': Unable to get bean for id 'SharingOwnerRule'
+ WARN [2017-05-10 16:31:50,422] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SharingReason': Unable to get bean for id 'SharingReason'
+ WARN [2017-05-10 16:31:50,425] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SharingRules': Unable to get bean for id 'SharingRules'
+ WARN [2017-05-10 16:31:50,435] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'TransactionSecurityPolicy': Unable to get bean for id 'TransactionSecurityPolicy'
+ WARN [2017-05-10 16:31:50,437] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ValidationRule': Unable to get bean for id 'ValidationRule'
+ WARN [2017-05-10 16:31:50,439] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'WebLink': Unable to get bean for id 'WebLink'
+ WARN [2017-05-10 16:31:50,442] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'WorkflowAlert': Unable to get bean for id 'WorkflowAlert'
+ WARN [2017-05-10 16:31:50,444] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'WorkflowFieldUpdate': Unable to get bean for id 'WorkflowFieldUpdate'
+ WARN [2017-05-10 16:31:50,447] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'WorkflowKnowledgePublish': Unable to get bean for id 'WorkflowKnowledgePublish'
+ WARN [2017-05-10 16:31:50,449] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'WorkflowOutboundMessage': Unable to get bean for id 'WorkflowOutboundMessage'
+ WARN [2017-05-10 16:31:50,450] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'WorkflowRule': Unable to get bean for id 'WorkflowRule'
+ WARN [2017-05-10 16:31:50,452] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'WorkflowSend': Unable to get bean for id 'WorkflowSend'
+ WARN [2017-05-10 16:31:50,454] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'WorkflowTask': Unable to get bean for id 'WorkflowTask'
+ WARN [2017-05-10 16:31:50,561] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ActionLinkGroupTemplate': Unable to get bean for id 'ActionLinkGroupTemplate'
+ WARN [2017-05-10 16:31:50,566] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'AuraDefinitionBundle': Unable to get bean for id 'AuraDefinitionBundle'
+ WARN [2017-05-10 16:31:50,575] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'Certificate': Unable to get bean for id 'Certificate'
+ WARN [2017-05-10 16:31:50,577] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ChannelLayout': Unable to get bean for id 'ChannelLayout'
+ WARN [2017-05-10 16:31:50,581] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CorsWhitelistOrigin': Unable to get bean for id 'CorsWhitelistOrigin'
+ WARN [2017-05-10 16:31:50,583] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CustomFeedFilter': Unable to get bean for id 'CustomFeedFilter'
+ WARN [2017-05-10 16:31:50,587] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'DelegateGroup': Unable to get bean for id 'DelegateGroup'
+ WARN [2017-05-10 16:31:50,590] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ExternalDataSource': Unable to get bean for id 'ExternalDataSource'
+ WARN [2017-05-10 16:31:50,592] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'FlowDefinition': Unable to get bean for id 'FlowDefinition'
+ WARN [2017-05-10 16:31:50,592] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'GlobalPicklist': Unable to get bean for id 'GlobalPicklist'
+ WARN [2017-05-10 16:31:50,595] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'LeadConvertSettings': Unable to get bean for id 'LeadConvertSettings'
+ WARN [2017-05-10 16:31:50,596] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'MatchingRule': Unable to get bean for id 'MatchingRule'
+ WARN [2017-05-10 16:31:50,597] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'MatchingRules': Unable to get bean for id 'MatchingRules'
+ WARN [2017-05-10 16:31:50,598] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'NamedCredential': Unable to get bean for id 'NamedCredential'
+ WARN [2017-05-10 16:31:50,599] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PathAssistant': Unable to get bean for id 'PathAssistant'
+ WARN [2017-05-10 16:31:50,600] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PlatformCachePartition': Unable to get bean for id 'PlatformCachePartition'
+ WARN [2017-05-10 16:31:50,604] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SharingCriteriaRule': Unable to get bean for id 'SharingCriteriaRule'
+ WARN [2017-05-10 16:31:50,605] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SharingOwnerRule': Unable to get bean for id 'SharingOwnerRule'
+ WARN [2017-05-10 16:31:50,606] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SharingRules': Unable to get bean for id 'SharingRules'
+ WARN [2017-05-10 16:31:50,609] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'TransactionSecurityPolicy': Unable to get bean for id 'TransactionSecurityPolicy'
+ WARN [2017-05-10 16:35:28,464] (ComponentController.java:checkInFolder:215) - Component resource 'First.cls' already exists in project
+ WARN [2017-05-10 16:35:36,363] (ComponentFactory.java:getCompositeComponentFromComponent:1098) - Unable to load existing 'classes/Second.cls-meta.xml' from project - associated component's file resource is null.  Assuming new.
+ WARN [2017-05-10 16:35:36,428] (ComponentController.java:deploy:447) - Remote save aborted - project is not online enabled
+ WARN [2017-05-10 16:35:36,639] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-05-10 16:36:45,293] (ComponentFactory.java:getCompositeComponentFromComponent:1098) - Unable to load existing 'pages/Page1.page-meta.xml' from project - associated component's file resource is null.  Assuming new.
+ WARN [2017-05-10 16:36:45,325] (ComponentController.java:deploy:447) - Remote save aborted - project is not online enabled
+ WARN [2017-05-10 16:36:45,495] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-05-10 16:37:55,573] (ComponentFactory.java:getCompositeComponentFromComponent:1098) - Unable to load existing 'triggers/Trigger1.trigger-meta.xml' from project - associated component's file resource is null.  Assuming new.
+ WARN [2017-05-10 16:37:55,595] (ComponentController.java:deploy:447) - Remote save aborted - project is not online enabled
+ WARN [2017-05-10 16:37:55,738] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-05-10 16:45:33,698] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'Certificate': Unable to get bean for id 'Certificate'
+ WARN [2017-05-10 16:45:33,700] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'AuraDefinitionBundle': Unable to get bean for id 'AuraDefinitionBundle'
+ WARN [2017-05-10 16:45:33,709] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ExternalDataSource': Unable to get bean for id 'ExternalDataSource'
+ WARN [2017-05-10 16:45:33,711] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'NamedCredential': Unable to get bean for id 'NamedCredential'
+ WARN [2017-05-10 16:45:33,722] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'GlobalPicklist': Unable to get bean for id 'GlobalPicklist'
+ WARN [2017-05-10 16:45:33,740] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CustomFeedFilter': Unable to get bean for id 'CustomFeedFilter'
+ WARN [2017-05-10 16:45:33,753] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'FlowDefinition': Unable to get bean for id 'FlowDefinition'
+ WARN [2017-05-10 16:45:33,770] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'MatchingRules': Unable to get bean for id 'MatchingRules'
+ WARN [2017-05-10 16:45:33,773] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ChannelLayout': Unable to get bean for id 'ChannelLayout'
+ WARN [2017-05-10 16:45:33,774] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SharingRules': Unable to get bean for id 'SharingRules'
+ WARN [2017-05-10 16:45:33,780] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'DelegateGroup': Unable to get bean for id 'DelegateGroup'
+ WARN [2017-05-10 16:45:33,783] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CorsWhitelistOrigin': Unable to get bean for id 'CorsWhitelistOrigin'
+ WARN [2017-05-10 16:45:33,784] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ActionLinkGroupTemplate': Unable to get bean for id 'ActionLinkGroupTemplate'
+ WARN [2017-05-10 16:45:33,785] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'TransactionSecurityPolicy': Unable to get bean for id 'TransactionSecurityPolicy'
+ WARN [2017-05-10 16:45:33,786] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SynonymDictionary': Unable to get bean for id 'SynonymDictionary'
+ WARN [2017-05-10 16:45:33,787] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PathAssistant': Unable to get bean for id 'PathAssistant'
+ WARN [2017-05-10 16:45:33,788] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'LeadConvertSettings': Unable to get bean for id 'LeadConvertSettings'
+ WARN [2017-05-10 16:45:33,788] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PlatformCachePartition': Unable to get bean for id 'PlatformCachePartition'
+ WARN [2017-05-10 16:45:34,769] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'Certificate': Unable to get bean for id 'Certificate'
+ WARN [2017-05-10 16:45:34,771] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'AuraDefinitionBundle': Unable to get bean for id 'AuraDefinitionBundle'
+ WARN [2017-05-10 16:45:34,774] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ExternalDataSource': Unable to get bean for id 'ExternalDataSource'
+ WARN [2017-05-10 16:45:34,776] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'NamedCredential': Unable to get bean for id 'NamedCredential'
+ WARN [2017-05-10 16:45:34,777] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'GlobalPicklist': Unable to get bean for id 'GlobalPicklist'
+ WARN [2017-05-10 16:45:34,780] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CustomFeedFilter': Unable to get bean for id 'CustomFeedFilter'
+ WARN [2017-05-10 16:45:34,784] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'FlowDefinition': Unable to get bean for id 'FlowDefinition'
+ WARN [2017-05-10 16:45:34,790] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'MatchingRules': Unable to get bean for id 'MatchingRules'
+ WARN [2017-05-10 16:45:34,791] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ChannelLayout': Unable to get bean for id 'ChannelLayout'
+ WARN [2017-05-10 16:45:34,793] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SharingRules': Unable to get bean for id 'SharingRules'
+ WARN [2017-05-10 16:45:34,794] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'DelegateGroup': Unable to get bean for id 'DelegateGroup'
+ WARN [2017-05-10 16:45:34,799] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CorsWhitelistOrigin': Unable to get bean for id 'CorsWhitelistOrigin'
+ WARN [2017-05-10 16:45:34,800] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ActionLinkGroupTemplate': Unable to get bean for id 'ActionLinkGroupTemplate'
+ WARN [2017-05-10 16:45:34,802] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'TransactionSecurityPolicy': Unable to get bean for id 'TransactionSecurityPolicy'
+ WARN [2017-05-10 16:45:34,803] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SynonymDictionary': Unable to get bean for id 'SynonymDictionary'
+ WARN [2017-05-10 16:45:34,805] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PathAssistant': Unable to get bean for id 'PathAssistant'
+ WARN [2017-05-10 16:45:34,806] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'LeadConvertSettings': Unable to get bean for id 'LeadConvertSettings'
+ WARN [2017-05-10 16:45:34,807] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PlatformCachePartition': Unable to get bean for id 'PlatformCachePartition'
+ WARN [2017-05-10 16:46:28,204] (ComponentFactory.java:getCompositeComponentFromComponent:1098) - Unable to load existing 'classes/Print.cls-meta.xml' from project - associated component's file resource is null.  Assuming new.
+ WARN [2017-05-10 16:46:28,235] (ComponentController.java:deploy:447) - Remote save aborted - project is not online enabled
+ WARN [2017-05-10 16:46:28,238] (Utils.java:loadDocument:800) - Unable to load document: C:\Users\tanmay.hole\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\Project2\com.salesforce.ide.core\packageCache.xml (The system cannot find the file specified)
+ WARN [2017-05-10 16:46:28,239] (ComponentController.java:run:425) - Unable to update cache with new component Apex Class - cache is not found
+ WARN [2017-05-10 16:46:28,382] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-05-10 16:50:54,472] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-05-10 16:56:31,864] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-05-10 16:56:31,869] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-05-10 17:03:19,082] (ComponentFactory.java:getCompositeComponentFromComponent:1098) - Unable to load existing 'classes/Fibonacci.cls-meta.xml' from project - associated component's file resource is null.  Assuming new.
+ WARN [2017-05-10 17:03:19,125] (ComponentController.java:deploy:447) - Remote save aborted - project is not online enabled
+ WARN [2017-05-10 17:03:19,173] (Utils.java:loadDocument:800) - Unable to load document: C:\Users\tanmay.hole\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\Project2\com.salesforce.ide.core\packageCache.xml (The system cannot find the file specified)
+ WARN [2017-05-10 17:03:19,175] (ComponentController.java:run:425) - Unable to update cache with new component Apex Class - cache is not found
+ WARN [2017-05-10 17:03:19,466] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-05-10 17:24:35,392] (DefaultBuilder.java:applyDirtyMarkers:93) - TODO: apply 'Save locally only...' markers on each resource
+ WARN [2017-05-10 17:29:47,628] (BuilderPayload.java:filterComponentsInConflict:272) - Retrieve result contains problem messages:
+ (1) classes/Print.cls: In field: specific ids - no ApexClass named Print found
+ (2) classes/Print.cls-meta.xml: In field: specific ids - no ApexClass named Print found
+ WARN [2017-05-10 17:29:47,629] (BuilderPayload.java:filterComponentsInConflict:276) - Remote retrieve result count [0] does not equal request count [2].
+ WARN [2017-05-10 17:29:47,631] (ProjectPackageList.java:getComponentByFilePath:725) - Component not found - component list is null or empty or file path is null
+ WARN [2017-05-10 17:29:47,632] (BuilderPayload.java:conflictCheck:317) - ApexClass 'classes/Print.cls-meta.xml' [unpackaged] not found in remote project package list.  Assuming no conflict.
+ WARN [2017-05-10 17:29:47,655] (ProjectPackageList.java:getComponentByFilePath:725) - Component not found - component list is null or empty or file path is null
+ WARN [2017-05-10 17:29:47,656] (BuilderPayload.java:conflictCheck:317) - ApexClass 'classes/Print.cls' [unpackaged] not found in remote project package list.  Assuming no conflict.
+ERROR [2017-05-10 17:31:19,680] (ProjectPackageList.java:generateComponents:483) - Filepath-zip mapping is null or empty for package 'unpackaged' [null] - skipping component generation
+ WARN [2017-05-10 17:31:22,574] (ProjectService.java:handleDeployResult:1917) - Save failed!
+ WARN [2017-05-10 17:31:22,580] (ProjectService.java:handleRetrieveResult:2087) - Nothing to save to project - retrieve result is empty
+ERROR [2017-05-10 17:31:40,365] (ProjectPackageList.java:generateComponents:483) - Filepath-zip mapping is null or empty for package 'unpackaged' [null] - skipping component generation
+ WARN [2017-05-10 17:31:43,069] (ProjectService.java:handleDeployResult:1917) - Save failed!
+ WARN [2017-05-10 17:31:43,072] (ProjectService.java:handleRetrieveResult:2087) - Nothing to save to project - retrieve result is empty
+ WARN [2017-05-10 17:32:56,198] (BuilderPayload.java:filterComponentsInConflict:272) - Retrieve result contains problem messages:
+ (1) classes/Fibonacci.cls: In field: specific ids - no ApexClass named Fibonacci found
+ (2) classes/Fibonacci.cls-meta.xml: In field: specific ids - no ApexClass named Fibonacci found
+ WARN [2017-05-10 17:32:56,199] (BuilderPayload.java:filterComponentsInConflict:276) - Remote retrieve result count [0] does not equal request count [2].
+ WARN [2017-05-10 17:32:56,200] (ProjectPackageList.java:getComponentByFilePath:725) - Component not found - component list is null or empty or file path is null
+ WARN [2017-05-10 17:32:56,201] (BuilderPayload.java:conflictCheck:317) - ApexClass 'classes/Fibonacci.cls-meta.xml' [unpackaged] not found in remote project package list.  Assuming no conflict.
+ WARN [2017-05-10 17:32:56,201] (ProjectPackageList.java:getComponentByFilePath:725) - Component not found - component list is null or empty or file path is null
+ WARN [2017-05-10 17:32:56,202] (BuilderPayload.java:conflictCheck:317) - ApexClass 'classes/Fibonacci.cls' [unpackaged] not found in remote project package list.  Assuming no conflict.
+ WARN [2017-05-10 17:53:51,511] (ComponentFactory.java:getCompositeComponentFromComponent:1098) - Unable to load existing 'classes/Resverse.cls-meta.xml' from project - associated component's file resource is null.  Assuming new.
+ WARN [2017-05-10 17:53:52,948] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'Certificate': Unable to get bean for id 'Certificate'
+ WARN [2017-05-10 17:53:52,950] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'AuraDefinitionBundle': Unable to get bean for id 'AuraDefinitionBundle'
+ WARN [2017-05-10 17:53:52,958] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ExternalDataSource': Unable to get bean for id 'ExternalDataSource'
+ WARN [2017-05-10 17:53:52,960] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'NamedCredential': Unable to get bean for id 'NamedCredential'
+ WARN [2017-05-10 17:53:52,968] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'GlobalPicklist': Unable to get bean for id 'GlobalPicklist'
+ WARN [2017-05-10 17:53:52,986] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CustomFeedFilter': Unable to get bean for id 'CustomFeedFilter'
+ WARN [2017-05-10 17:53:53,001] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'FlowDefinition': Unable to get bean for id 'FlowDefinition'
+ WARN [2017-05-10 17:53:53,019] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'MatchingRules': Unable to get bean for id 'MatchingRules'
+ WARN [2017-05-10 17:53:53,022] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ChannelLayout': Unable to get bean for id 'ChannelLayout'
+ WARN [2017-05-10 17:53:53,025] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SharingRules': Unable to get bean for id 'SharingRules'
+ WARN [2017-05-10 17:53:53,031] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'DelegateGroup': Unable to get bean for id 'DelegateGroup'
+ WARN [2017-05-10 17:53:53,035] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CorsWhitelistOrigin': Unable to get bean for id 'CorsWhitelistOrigin'
+ WARN [2017-05-10 17:53:53,036] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ActionLinkGroupTemplate': Unable to get bean for id 'ActionLinkGroupTemplate'
+ WARN [2017-05-10 17:53:53,037] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'TransactionSecurityPolicy': Unable to get bean for id 'TransactionSecurityPolicy'
+ WARN [2017-05-10 17:53:53,038] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SynonymDictionary': Unable to get bean for id 'SynonymDictionary'
+ WARN [2017-05-10 17:53:53,039] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PathAssistant': Unable to get bean for id 'PathAssistant'
+ WARN [2017-05-10 17:53:53,040] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'LeadConvertSettings': Unable to get bean for id 'LeadConvertSettings'
+ WARN [2017-05-10 17:53:53,041] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PlatformCachePartition': Unable to get bean for id 'PlatformCachePartition'
+ WARN [2017-05-10 17:53:55,325] (Utils.java:loadDocument:800) - Unable to load document: C:\Users\tanmay.hole\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\Project2\com.salesforce.ide.core\packageCache.xml (The system cannot find the file specified)
+ WARN [2017-05-10 17:53:55,326] (ComponentController.java:run:425) - Unable to update cache with new component Apex Class - cache is not found
+ WARN [2017-05-10 18:04:38,720] (ComponentFactory.java:getCompositeComponentFromComponent:1098) - Unable to load existing 'classes/Reverse.cls-meta.xml' from project - associated component's file resource is null.  Assuming new.
+ WARN [2017-05-10 18:04:39,417] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'Certificate': Unable to get bean for id 'Certificate'
+ WARN [2017-05-10 18:04:39,418] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'AuraDefinitionBundle': Unable to get bean for id 'AuraDefinitionBundle'
+ WARN [2017-05-10 18:04:39,425] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ExternalDataSource': Unable to get bean for id 'ExternalDataSource'
+ WARN [2017-05-10 18:04:39,428] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'NamedCredential': Unable to get bean for id 'NamedCredential'
+ WARN [2017-05-10 18:04:39,433] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'GlobalPicklist': Unable to get bean for id 'GlobalPicklist'
+ WARN [2017-05-10 18:04:39,441] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CustomFeedFilter': Unable to get bean for id 'CustomFeedFilter'
+ WARN [2017-05-10 18:04:39,463] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'FlowDefinition': Unable to get bean for id 'FlowDefinition'
+ WARN [2017-05-10 18:04:39,485] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'MatchingRules': Unable to get bean for id 'MatchingRules'
+ WARN [2017-05-10 18:04:39,488] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ChannelLayout': Unable to get bean for id 'ChannelLayout'
+ WARN [2017-05-10 18:04:39,489] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SharingRules': Unable to get bean for id 'SharingRules'
+ WARN [2017-05-10 18:04:39,494] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'DelegateGroup': Unable to get bean for id 'DelegateGroup'
+ WARN [2017-05-10 18:04:39,497] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CorsWhitelistOrigin': Unable to get bean for id 'CorsWhitelistOrigin'
+ WARN [2017-05-10 18:04:39,498] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ActionLinkGroupTemplate': Unable to get bean for id 'ActionLinkGroupTemplate'
+ WARN [2017-05-10 18:04:39,499] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'TransactionSecurityPolicy': Unable to get bean for id 'TransactionSecurityPolicy'
+ WARN [2017-05-10 18:04:39,524] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SynonymDictionary': Unable to get bean for id 'SynonymDictionary'
+ WARN [2017-05-10 18:04:39,526] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PathAssistant': Unable to get bean for id 'PathAssistant'
+ WARN [2017-05-10 18:04:39,527] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'LeadConvertSettings': Unable to get bean for id 'LeadConvertSettings'
+ WARN [2017-05-10 18:04:39,529] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PlatformCachePartition': Unable to get bean for id 'PlatformCachePartition'
+ WARN [2017-05-10 18:04:41,746] (Utils.java:loadDocument:800) - Unable to load document: C:\Users\tanmay.hole\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\Project2\com.salesforce.ide.core\packageCache.xml (The system cannot find the file specified)
+ WARN [2017-05-10 18:04:41,746] (ComponentController.java:run:425) - Unable to update cache with new component Apex Class - cache is not found
+ERROR [2017-05-10 18:11:33,982] (ToolingOperationsRetryAspect.java:toolingOperationsRetry:40) - ForceRemoteException occurred while attempting to perform a tooling operation
+ WARN [2017-05-10 18:11:34,023] (BaseRetryAspect.java:isExceptionRetryable:217) - General evaluation deemed exception not retry-able:
+ ClassNotFoundException: com.sforce.soap.partner.fault.UnexpectedErrorFault cannot be found by com.salesforce.ide.api_36.0.0.201601221512
+ WARN [2017-05-10 18:11:34,025] (ToolingDeployService.java:handleToolingDeployException:218) - com.salesforce.ide.core.remote.ForceRemoteException: com.sforce.ws.ConnectionException: Failed to parse detail:  START_TAG seen ...etail><sf:UnexpectedErrorFault xsi:type="sf:UnexpectedErrorFault">... @1:483 due to: com.sforce.ws.ConnectionException: Failed to load class: com.sforce.soap.partner.fault.UnexpectedErrorFault
+ WARN [2017-05-10 18:15:16,178] (ComponentFactory.java:getCompositeComponentFromComponent:1098) - Unable to load existing 'classes/Operation.cls-meta.xml' from project - associated component's file resource is null.  Assuming new.
+ WARN [2017-05-10 18:15:16,886] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'Certificate': Unable to get bean for id 'Certificate'
+ WARN [2017-05-10 18:15:16,887] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'AuraDefinitionBundle': Unable to get bean for id 'AuraDefinitionBundle'
+ WARN [2017-05-10 18:15:16,895] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ExternalDataSource': Unable to get bean for id 'ExternalDataSource'
+ WARN [2017-05-10 18:15:16,896] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'NamedCredential': Unable to get bean for id 'NamedCredential'
+ WARN [2017-05-10 18:15:16,899] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'GlobalPicklist': Unable to get bean for id 'GlobalPicklist'
+ WARN [2017-05-10 18:15:16,908] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CustomFeedFilter': Unable to get bean for id 'CustomFeedFilter'
+ WARN [2017-05-10 18:15:16,920] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'FlowDefinition': Unable to get bean for id 'FlowDefinition'
+ WARN [2017-05-10 18:15:16,936] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'MatchingRules': Unable to get bean for id 'MatchingRules'
+ WARN [2017-05-10 18:15:16,939] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ChannelLayout': Unable to get bean for id 'ChannelLayout'
+ WARN [2017-05-10 18:15:16,940] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SharingRules': Unable to get bean for id 'SharingRules'
+ WARN [2017-05-10 18:15:16,945] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'DelegateGroup': Unable to get bean for id 'DelegateGroup'
+ WARN [2017-05-10 18:15:16,949] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CorsWhitelistOrigin': Unable to get bean for id 'CorsWhitelistOrigin'
+ WARN [2017-05-10 18:15:16,950] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ActionLinkGroupTemplate': Unable to get bean for id 'ActionLinkGroupTemplate'
+ WARN [2017-05-10 18:15:16,951] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'TransactionSecurityPolicy': Unable to get bean for id 'TransactionSecurityPolicy'
+ WARN [2017-05-10 18:15:16,952] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SynonymDictionary': Unable to get bean for id 'SynonymDictionary'
+ WARN [2017-05-10 18:15:16,952] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PathAssistant': Unable to get bean for id 'PathAssistant'
+ WARN [2017-05-10 18:15:16,953] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'LeadConvertSettings': Unable to get bean for id 'LeadConvertSettings'
+ WARN [2017-05-10 18:15:16,954] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PlatformCachePartition': Unable to get bean for id 'PlatformCachePartition'
+ WARN [2017-05-10 18:15:19,099] (Utils.java:loadDocument:800) - Unable to load document: C:\Users\tanmay.hole\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\Project2\com.salesforce.ide.core\packageCache.xml (The system cannot find the file specified)
+ WARN [2017-05-10 18:15:19,099] (ComponentController.java:run:425) - Unable to update cache with new component Apex Class - cache is not found
+ WARN [2017-05-10 18:29:31,270] (ProjectService.java:handleDeployResult:1917) - Save failed!
+ WARN [2017-05-10 18:29:31,272] (ProjectService.java:handleRetrieveResult:2087) - Nothing to save to project - retrieve result is empty
+ WARN [2017-05-10 18:48:02,924] (BaseRetryAspect.java:isLoginExceptionRetryable:115) - Login evaluation deemed exception not retry-able:
+ UnexpectedErrorFault: Destination URL not reset. The URL returned from login must be set in the SforceService
+ WARN [2017-05-10 18:48:02,931] (BaseRetryAspect.java:isConnectionExceptionRetryable:150) - Connection evaluation deemed exception not retry-able:
+ UnexpectedErrorFault: Destination URL not reset. The URL returned from login must be set in the SforceService
+ WARN [2017-05-10 18:48:02,994] (ProxyAspect.java:setConnectionProxy:79) - Unable to get connection for project
+ WARN [2017-05-10 18:48:02,995] (ProxyAspect.java:setConnectionProxy:90) - Unable to set proxy settings - could not get Connection from joinpoint
+ WARN [2017-05-10 18:48:03,186] (BaseRetryAspect.java:isLoginExceptionRetryable:115) - Login evaluation deemed exception not retry-able:
+ UnexpectedErrorFault: Destination URL not reset. The URL returned from login must be set in the SforceService
+ WARN [2017-05-10 18:48:03,187] (BaseRetryAspect.java:isConnectionExceptionRetryable:150) - Connection evaluation deemed exception not retry-able:
+ UnexpectedErrorFault: Destination URL not reset. The URL returned from login must be set in the SforceService
+ WARN [2017-05-10 18:48:04,626] (BaseRetryAspect.java:isLoginExceptionRetryable:115) - Login evaluation deemed exception not retry-able:
+ UnexpectedErrorFault: Destination URL not reset. The URL returned from login must be set in the SforceService
+ WARN [2017-05-10 18:48:04,630] (BaseRetryAspect.java:isConnectionExceptionRetryable:150) - Connection evaluation deemed exception not retry-able:
+ UnexpectedErrorFault: Destination URL not reset. The URL returned from login must be set in the SforceService
+ WARN [2017-05-10 18:48:04,630] (ProxyAspect.java:setConnectionProxy:79) - Unable to get connection for project
+ WARN [2017-05-10 18:48:04,631] (ProxyAspect.java:setConnectionProxy:90) - Unable to set proxy settings - could not get Connection from joinpoint
+ WARN [2017-05-10 18:48:04,825] (BaseRetryAspect.java:isLoginExceptionRetryable:115) - Login evaluation deemed exception not retry-able:
+ UnexpectedErrorFault: Destination URL not reset. The URL returned from login must be set in the SforceService
+ WARN [2017-05-10 18:48:04,826] (BaseRetryAspect.java:isConnectionExceptionRetryable:150) - Connection evaluation deemed exception not retry-able:
+ UnexpectedErrorFault: Destination URL not reset. The URL returned from login must be set in the SforceService
+ WARN [2017-05-10 18:48:13,201] (BaseRetryAspect.java:isLoginExceptionRetryable:115) - Login evaluation deemed exception not retry-able:
+ UnexpectedErrorFault: Destination URL not reset. The URL returned from login must be set in the SforceService
+ WARN [2017-05-10 18:48:13,202] (BaseRetryAspect.java:isConnectionExceptionRetryable:150) - Connection evaluation deemed exception not retry-able:
+ UnexpectedErrorFault: Destination URL not reset. The URL returned from login must be set in the SforceService
+ WARN [2017-05-10 18:48:13,203] (ProxyAspect.java:setConnectionProxy:79) - Unable to get connection for project
+ WARN [2017-05-10 18:48:13,204] (ProxyAspect.java:setConnectionProxy:90) - Unable to set proxy settings - could not get Connection from joinpoint
+ WARN [2017-05-10 18:48:13,378] (BaseRetryAspect.java:isLoginExceptionRetryable:115) - Login evaluation deemed exception not retry-able:
+ UnexpectedErrorFault: Destination URL not reset. The URL returned from login must be set in the SforceService
+ WARN [2017-05-10 18:48:13,379] (BaseRetryAspect.java:isConnectionExceptionRetryable:150) - Connection evaluation deemed exception not retry-able:
+ UnexpectedErrorFault: Destination URL not reset. The URL returned from login must be set in the SforceService
+ WARN [2017-05-10 18:49:01,338] (BaseRetryAspect.java:isLoginExceptionRetryable:115) - Login evaluation deemed exception not retry-able:
+ UnexpectedErrorFault: Destination URL not reset. The URL returned from login must be set in the SforceService
+ WARN [2017-05-10 18:49:01,339] (BaseRetryAspect.java:isConnectionExceptionRetryable:150) - Connection evaluation deemed exception not retry-able:
+ UnexpectedErrorFault: Destination URL not reset. The URL returned from login must be set in the SforceService
+ WARN [2017-05-10 18:49:01,339] (ProxyAspect.java:setConnectionProxy:79) - Unable to get connection for project
+ WARN [2017-05-10 18:49:01,340] (ProxyAspect.java:setConnectionProxy:90) - Unable to set proxy settings - could not get Connection from joinpoint
+ WARN [2017-05-10 18:49:01,539] (BaseRetryAspect.java:isLoginExceptionRetryable:115) - Login evaluation deemed exception not retry-able:
+ UnexpectedErrorFault: Destination URL not reset. The URL returned from login must be set in the SforceService
+ WARN [2017-05-10 18:49:01,540] (BaseRetryAspect.java:isConnectionExceptionRetryable:150) - Connection evaluation deemed exception not retry-able:
+ UnexpectedErrorFault: Destination URL not reset. The URL returned from login must be set in the SforceService
+ WARN [2017-05-11 15:08:46,840] (ComponentFactory.java:getCompositeComponentFromComponent:1098) - Unable to load existing 'classes/Occurrence.cls-meta.xml' from project - associated component's file resource is null.  Assuming new.
+ WARN [2017-05-11 15:08:50,478] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'Certificate': Unable to get bean for id 'Certificate'
+ WARN [2017-05-11 15:08:50,480] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'AuraDefinitionBundle': Unable to get bean for id 'AuraDefinitionBundle'
+ WARN [2017-05-11 15:08:50,509] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ExternalDataSource': Unable to get bean for id 'ExternalDataSource'
+ WARN [2017-05-11 15:08:50,512] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'NamedCredential': Unable to get bean for id 'NamedCredential'
+ WARN [2017-05-11 15:08:50,518] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'GlobalPicklist': Unable to get bean for id 'GlobalPicklist'
+ WARN [2017-05-11 15:08:50,538] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CustomFeedFilter': Unable to get bean for id 'CustomFeedFilter'
+ WARN [2017-05-11 15:08:50,556] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'FlowDefinition': Unable to get bean for id 'FlowDefinition'
+ WARN [2017-05-11 15:08:50,589] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'MatchingRules': Unable to get bean for id 'MatchingRules'
+ WARN [2017-05-11 15:08:50,594] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ChannelLayout': Unable to get bean for id 'ChannelLayout'
+ WARN [2017-05-11 15:08:50,595] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SharingRules': Unable to get bean for id 'SharingRules'
+ WARN [2017-05-11 15:08:50,607] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'DelegateGroup': Unable to get bean for id 'DelegateGroup'
+ WARN [2017-05-11 15:08:50,615] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CorsWhitelistOrigin': Unable to get bean for id 'CorsWhitelistOrigin'
+ WARN [2017-05-11 15:08:50,616] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ActionLinkGroupTemplate': Unable to get bean for id 'ActionLinkGroupTemplate'
+ WARN [2017-05-11 15:08:50,618] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'TransactionSecurityPolicy': Unable to get bean for id 'TransactionSecurityPolicy'
+ WARN [2017-05-11 15:08:50,620] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SynonymDictionary': Unable to get bean for id 'SynonymDictionary'
+ WARN [2017-05-11 15:08:50,622] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PathAssistant': Unable to get bean for id 'PathAssistant'
+ WARN [2017-05-11 15:08:50,624] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'LeadConvertSettings': Unable to get bean for id 'LeadConvertSettings'
+ WARN [2017-05-11 15:08:50,625] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PlatformCachePartition': Unable to get bean for id 'PlatformCachePartition'
+ WARN [2017-05-11 15:39:10,899] (ComponentFactory.java:getCompositeComponentFromComponent:1098) - Unable to load existing 'classes/static.cls-meta.xml' from project - associated component's file resource is null.  Assuming new.
+ WARN [2017-05-11 15:39:15,182] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'Certificate': Unable to get bean for id 'Certificate'
+ WARN [2017-05-11 15:39:15,184] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'AuraDefinitionBundle': Unable to get bean for id 'AuraDefinitionBundle'
+ WARN [2017-05-11 15:39:15,198] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ExternalDataSource': Unable to get bean for id 'ExternalDataSource'
+ WARN [2017-05-11 15:39:15,200] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'NamedCredential': Unable to get bean for id 'NamedCredential'
+ WARN [2017-05-11 15:39:15,204] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'GlobalPicklist': Unable to get bean for id 'GlobalPicklist'
+ WARN [2017-05-11 15:39:15,220] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CustomFeedFilter': Unable to get bean for id 'CustomFeedFilter'
+ WARN [2017-05-11 15:39:15,240] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'FlowDefinition': Unable to get bean for id 'FlowDefinition'
+ WARN [2017-05-11 15:39:15,263] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'MatchingRules': Unable to get bean for id 'MatchingRules'
+ WARN [2017-05-11 15:39:15,266] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ChannelLayout': Unable to get bean for id 'ChannelLayout'
+ WARN [2017-05-11 15:39:15,268] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SharingRules': Unable to get bean for id 'SharingRules'
+ WARN [2017-05-11 15:39:15,275] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'DelegateGroup': Unable to get bean for id 'DelegateGroup'
+ WARN [2017-05-11 15:39:15,283] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CorsWhitelistOrigin': Unable to get bean for id 'CorsWhitelistOrigin'
+ WARN [2017-05-11 15:39:15,284] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ActionLinkGroupTemplate': Unable to get bean for id 'ActionLinkGroupTemplate'
+ WARN [2017-05-11 15:39:15,285] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'TransactionSecurityPolicy': Unable to get bean for id 'TransactionSecurityPolicy'
+ WARN [2017-05-11 15:39:15,287] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SynonymDictionary': Unable to get bean for id 'SynonymDictionary'
+ WARN [2017-05-11 15:39:15,289] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PathAssistant': Unable to get bean for id 'PathAssistant'
+ WARN [2017-05-11 15:39:15,291] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'LeadConvertSettings': Unable to get bean for id 'LeadConvertSettings'
+ WARN [2017-05-11 15:39:15,293] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PlatformCachePartition': Unable to get bean for id 'PlatformCachePartition'
+ WARN [2017-05-11 15:39:17,400] (ProjectService.java:handleDeployResult:1917) - Save failed!
+ WARN [2017-05-11 15:39:17,404] (ProjectService.java:handleRetrieveResult:2087) - Nothing to save to project - retrieve result is empty
+ WARN [2017-05-11 15:39:17,411] (Utils.java:loadDocument:800) - Unable to load document: C:\Users\tanmay.hole\Desktop\Git\.metadata\.plugins\org.eclipse.core.resources\.projects\Project2\com.salesforce.ide.core\packageCache.xml (The system cannot find the file specified)
+ WARN [2017-05-11 15:39:17,414] (ComponentController.java:run:425) - Unable to update cache with new component Apex Class - cache is not found
+ WARN [2017-05-11 15:39:18,886] (BuilderPayload.java:filterComponentsInConflict:272) - Retrieve result contains problem messages:
+ (1) classes/static.cls: In field: specific ids - no ApexClass named static found
+ (2) classes/static.cls-meta.xml: In field: specific ids - no ApexClass named static found
+ WARN [2017-05-11 15:39:18,887] (BuilderPayload.java:filterComponentsInConflict:276) - Remote retrieve result count [0] does not equal request count [2].
+ WARN [2017-05-11 15:39:18,889] (ProjectPackageList.java:getComponentByFilePath:725) - Component not found - component list is null or empty or file path is null
+ WARN [2017-05-11 15:39:18,890] (BuilderPayload.java:conflictCheck:317) - ApexClass 'classes/static.cls-meta.xml' [unpackaged] not found in remote project package list.  Assuming no conflict.
+ WARN [2017-05-11 15:39:18,890] (ProjectPackageList.java:getComponentByFilePath:725) - Component not found - component list is null or empty or file path is null
+ WARN [2017-05-11 15:39:18,896] (BuilderPayload.java:conflictCheck:317) - ApexClass 'classes/static.cls' [unpackaged] not found in remote project package list.  Assuming no conflict.
+ WARN [2017-05-11 15:39:20,400] (ProjectService.java:handleDeployResult:1917) - Save failed!
+ WARN [2017-05-11 15:39:20,404] (ProjectService.java:handleRetrieveResult:2087) - Nothing to save to project - retrieve result is empty
+ WARN [2017-05-11 15:41:10,597] (ComponentFactory.java:getCompositeComponentFromComponent:1098) - Unable to load existing 'classes/Animal.cls-meta.xml' from project - associated component's file resource is null.  Assuming new.
+ WARN [2017-05-11 15:41:11,293] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'Certificate': Unable to get bean for id 'Certificate'
+ WARN [2017-05-11 15:41:11,295] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'AuraDefinitionBundle': Unable to get bean for id 'AuraDefinitionBundle'
+ WARN [2017-05-11 15:41:11,297] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ExternalDataSource': Unable to get bean for id 'ExternalDataSource'
+ WARN [2017-05-11 15:41:11,299] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'NamedCredential': Unable to get bean for id 'NamedCredential'
+ WARN [2017-05-11 15:41:11,301] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'GlobalPicklist': Unable to get bean for id 'GlobalPicklist'
+ WARN [2017-05-11 15:41:11,304] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CustomFeedFilter': Unable to get bean for id 'CustomFeedFilter'
+ WARN [2017-05-11 15:41:11,309] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'FlowDefinition': Unable to get bean for id 'FlowDefinition'
+ WARN [2017-05-11 15:41:11,320] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'MatchingRules': Unable to get bean for id 'MatchingRules'
+ WARN [2017-05-11 15:41:11,323] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ChannelLayout': Unable to get bean for id 'ChannelLayout'
+ WARN [2017-05-11 15:41:11,324] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SharingRules': Unable to get bean for id 'SharingRules'
+ WARN [2017-05-11 15:41:11,326] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'DelegateGroup': Unable to get bean for id 'DelegateGroup'
+ WARN [2017-05-11 15:41:11,328] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CorsWhitelistOrigin': Unable to get bean for id 'CorsWhitelistOrigin'
+ WARN [2017-05-11 15:41:11,329] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ActionLinkGroupTemplate': Unable to get bean for id 'ActionLinkGroupTemplate'
+ WARN [2017-05-11 15:41:11,332] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'TransactionSecurityPolicy': Unable to get bean for id 'TransactionSecurityPolicy'
+ WARN [2017-05-11 15:41:11,334] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SynonymDictionary': Unable to get bean for id 'SynonymDictionary'
+ WARN [2017-05-11 15:41:11,334] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PathAssistant': Unable to get bean for id 'PathAssistant'
+ WARN [2017-05-11 15:41:11,335] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'LeadConvertSettings': Unable to get bean for id 'LeadConvertSettings'
+ WARN [2017-05-11 15:41:11,336] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PlatformCachePartition': Unable to get bean for id 'PlatformCachePartition'
+ WARN [2017-05-11 15:41:14,548] (Utils.java:loadDocument:800) - Unable to load document: C:\Users\tanmay.hole\Desktop\Git\.metadata\.plugins\org.eclipse.core.resources\.projects\Project2\com.salesforce.ide.core\packageCache.xml (The system cannot find the file specified)
+ WARN [2017-05-11 15:41:14,563] (ComponentController.java:run:425) - Unable to update cache with new component Apex Class - cache is not found
+ WARN [2017-05-11 15:51:30,992] (ComponentFactory.java:getCompositeComponentFromComponent:1098) - Unable to load existing 'classes/Hello.cls-meta.xml' from project - associated component's file resource is null.  Assuming new.
+ WARN [2017-05-11 15:51:31,840] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'Certificate': Unable to get bean for id 'Certificate'
+ WARN [2017-05-11 15:51:31,842] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'AuraDefinitionBundle': Unable to get bean for id 'AuraDefinitionBundle'
+ WARN [2017-05-11 15:51:31,849] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ExternalDataSource': Unable to get bean for id 'ExternalDataSource'
+ WARN [2017-05-11 15:51:31,850] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'NamedCredential': Unable to get bean for id 'NamedCredential'
+ WARN [2017-05-11 15:51:31,853] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'GlobalPicklist': Unable to get bean for id 'GlobalPicklist'
+ WARN [2017-05-11 15:51:31,862] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CustomFeedFilter': Unable to get bean for id 'CustomFeedFilter'
+ WARN [2017-05-11 15:51:31,881] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'FlowDefinition': Unable to get bean for id 'FlowDefinition'
+ WARN [2017-05-11 15:51:31,904] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'MatchingRules': Unable to get bean for id 'MatchingRules'
+ WARN [2017-05-11 15:51:31,908] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ChannelLayout': Unable to get bean for id 'ChannelLayout'
+ WARN [2017-05-11 15:51:31,911] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SharingRules': Unable to get bean for id 'SharingRules'
+ WARN [2017-05-11 15:51:31,919] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'DelegateGroup': Unable to get bean for id 'DelegateGroup'
+ WARN [2017-05-11 15:51:31,924] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CorsWhitelistOrigin': Unable to get bean for id 'CorsWhitelistOrigin'
+ WARN [2017-05-11 15:51:31,926] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ActionLinkGroupTemplate': Unable to get bean for id 'ActionLinkGroupTemplate'
+ WARN [2017-05-11 15:51:31,927] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'TransactionSecurityPolicy': Unable to get bean for id 'TransactionSecurityPolicy'
+ WARN [2017-05-11 15:51:31,938] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SynonymDictionary': Unable to get bean for id 'SynonymDictionary'
+ WARN [2017-05-11 15:51:31,954] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PathAssistant': Unable to get bean for id 'PathAssistant'
+ WARN [2017-05-11 15:51:31,955] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'LeadConvertSettings': Unable to get bean for id 'LeadConvertSettings'
+ WARN [2017-05-11 15:51:31,956] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PlatformCachePartition': Unable to get bean for id 'PlatformCachePartition'
+ WARN [2017-05-11 15:51:34,138] (Utils.java:loadDocument:800) - Unable to load document: C:\Users\tanmay.hole\Desktop\Git\.metadata\.plugins\org.eclipse.core.resources\.projects\Project2\com.salesforce.ide.core\packageCache.xml (The system cannot find the file specified)
+ WARN [2017-05-11 15:51:34,138] (ComponentController.java:run:425) - Unable to update cache with new component Apex Class - cache is not found
+ WARN [2017-05-11 16:39:32,184] (ComponentFactory.java:getCompositeComponentFromComponent:1098) - Unable to load existing 'classes/Abstract.cls-meta.xml' from project - associated component's file resource is null.  Assuming new.
+ WARN [2017-05-11 16:39:33,795] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'Certificate': Unable to get bean for id 'Certificate'
+ WARN [2017-05-11 16:39:33,797] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'AuraDefinitionBundle': Unable to get bean for id 'AuraDefinitionBundle'
+ WARN [2017-05-11 16:39:33,805] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ExternalDataSource': Unable to get bean for id 'ExternalDataSource'
+ WARN [2017-05-11 16:39:33,806] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'NamedCredential': Unable to get bean for id 'NamedCredential'
+ WARN [2017-05-11 16:39:33,811] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'GlobalPicklist': Unable to get bean for id 'GlobalPicklist'
+ WARN [2017-05-11 16:39:33,828] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CustomFeedFilter': Unable to get bean for id 'CustomFeedFilter'
+ WARN [2017-05-11 16:39:33,851] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'FlowDefinition': Unable to get bean for id 'FlowDefinition'
+ WARN [2017-05-11 16:39:33,871] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'MatchingRules': Unable to get bean for id 'MatchingRules'
+ WARN [2017-05-11 16:39:33,874] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ChannelLayout': Unable to get bean for id 'ChannelLayout'
+ WARN [2017-05-11 16:39:33,875] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SharingRules': Unable to get bean for id 'SharingRules'
+ WARN [2017-05-11 16:39:33,881] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'DelegateGroup': Unable to get bean for id 'DelegateGroup'
+ WARN [2017-05-11 16:39:33,884] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CorsWhitelistOrigin': Unable to get bean for id 'CorsWhitelistOrigin'
+ WARN [2017-05-11 16:39:33,885] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ActionLinkGroupTemplate': Unable to get bean for id 'ActionLinkGroupTemplate'
+ WARN [2017-05-11 16:39:33,886] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'TransactionSecurityPolicy': Unable to get bean for id 'TransactionSecurityPolicy'
+ WARN [2017-05-11 16:39:33,886] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SynonymDictionary': Unable to get bean for id 'SynonymDictionary'
+ WARN [2017-05-11 16:39:33,887] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PathAssistant': Unable to get bean for id 'PathAssistant'
+ WARN [2017-05-11 16:39:33,888] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'LeadConvertSettings': Unable to get bean for id 'LeadConvertSettings'
+ WARN [2017-05-11 16:39:33,889] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PlatformCachePartition': Unable to get bean for id 'PlatformCachePartition'
+ WARN [2017-05-11 16:39:36,000] (ProjectService.java:handleDeployResult:1917) - Save failed!
+ WARN [2017-05-11 16:39:36,007] (ProjectService.java:handleRetrieveResult:2087) - Nothing to save to project - retrieve result is empty
+ WARN [2017-05-11 16:39:36,029] (Utils.java:loadDocument:800) - Unable to load document: C:\Users\tanmay.hole\Desktop\Git\.metadata\.plugins\org.eclipse.core.resources\.projects\Project2\com.salesforce.ide.core\packageCache.xml (The system cannot find the file specified)
+ WARN [2017-05-11 16:39:36,029] (ComponentController.java:run:425) - Unable to update cache with new component Apex Class - cache is not found
+ WARN [2017-05-11 16:39:37,422] (BuilderPayload.java:filterComponentsInConflict:272) - Retrieve result contains problem messages:
+ (1) classes/Abstract.cls: In field: specific ids - no ApexClass named Abstract found
+ (2) classes/Abstract.cls-meta.xml: In field: specific ids - no ApexClass named Abstract found
+ WARN [2017-05-11 16:39:37,423] (BuilderPayload.java:filterComponentsInConflict:276) - Remote retrieve result count [0] does not equal request count [2].
+ WARN [2017-05-11 16:39:37,425] (ProjectPackageList.java:getComponentByFilePath:725) - Component not found - component list is null or empty or file path is null
+ WARN [2017-05-11 16:39:37,425] (BuilderPayload.java:conflictCheck:317) - ApexClass 'classes/Abstract.cls-meta.xml' [unpackaged] not found in remote project package list.  Assuming no conflict.
+ WARN [2017-05-11 16:39:37,426] (ProjectPackageList.java:getComponentByFilePath:725) - Component not found - component list is null or empty or file path is null
+ WARN [2017-05-11 16:39:37,426] (BuilderPayload.java:conflictCheck:317) - ApexClass 'classes/Abstract.cls' [unpackaged] not found in remote project package list.  Assuming no conflict.
+ WARN [2017-05-11 16:39:38,969] (ProjectService.java:handleDeployResult:1917) - Save failed!
+ WARN [2017-05-11 16:39:38,972] (ProjectService.java:handleRetrieveResult:2087) - Nothing to save to project - retrieve result is empty
+ WARN [2017-05-11 17:07:54,155] (BuilderPayload.java:filterComponentsInConflict:272) - Retrieve result contains problem messages:
+ (1) classes/Abstract.cls: In field: specific ids - no ApexClass named Abstract found
+ (2) classes/Abstract.cls-meta.xml: In field: specific ids - no ApexClass named Abstract found
+ WARN [2017-05-11 17:07:54,157] (BuilderPayload.java:filterComponentsInConflict:276) - Remote retrieve result count [0] does not equal request count [2].
+ WARN [2017-05-11 17:07:54,158] (ProjectPackageList.java:getComponentByFilePath:725) - Component not found - component list is null or empty or file path is null
+ WARN [2017-05-11 17:07:54,159] (BuilderPayload.java:conflictCheck:317) - ApexClass 'classes/Abstract.cls-meta.xml' [unpackaged] not found in remote project package list.  Assuming no conflict.
+ WARN [2017-05-11 17:07:54,160] (ProjectPackageList.java:getComponentByFilePath:725) - Component not found - component list is null or empty or file path is null
+ WARN [2017-05-11 17:07:54,161] (BuilderPayload.java:conflictCheck:317) - ApexClass 'classes/Abstract.cls' [unpackaged] not found in remote project package list.  Assuming no conflict.
+ WARN [2017-05-11 17:07:55,739] (ProjectService.java:handleDeployResult:1917) - Save failed!
+ WARN [2017-05-11 17:07:55,741] (ProjectService.java:handleRetrieveResult:2087) - Nothing to save to project - retrieve result is empty
+ERROR [2017-05-11 17:08:02,286] (ProjectPackageList.java:generateComponents:483) - Filepath-zip mapping is null or empty for package 'unpackaged' [null] - skipping component generation
+ WARN [2017-05-11 17:08:09,254] (ProjectService.java:handleDeployResult:1917) - Save failed!
+ WARN [2017-05-11 17:08:09,257] (ProjectService.java:handleRetrieveResult:2087) - Nothing to save to project - retrieve result is empty
+ WARN [2017-05-11 17:09:52,423] (BuilderPayload.java:filterComponentsInConflict:272) - Retrieve result contains problem messages:
+ (1) classes/Abstract.cls: In field: specific ids - no ApexClass named Abstract found
+ (2) classes/Abstract.cls-meta.xml: In field: specific ids - no ApexClass named Abstract found
+ WARN [2017-05-11 17:09:52,424] (BuilderPayload.java:filterComponentsInConflict:276) - Remote retrieve result count [0] does not equal request count [2].
+ WARN [2017-05-11 17:09:52,425] (ProjectPackageList.java:getComponentByFilePath:725) - Component not found - component list is null or empty or file path is null
+ WARN [2017-05-11 17:09:52,426] (BuilderPayload.java:conflictCheck:317) - ApexClass 'classes/Abstract.cls-meta.xml' [unpackaged] not found in remote project package list.  Assuming no conflict.
+ WARN [2017-05-11 17:09:52,427] (ProjectPackageList.java:getComponentByFilePath:725) - Component not found - component list is null or empty or file path is null
+ WARN [2017-05-11 17:09:52,428] (BuilderPayload.java:conflictCheck:317) - ApexClass 'classes/Abstract.cls' [unpackaged] not found in remote project package list.  Assuming no conflict.
+ WARN [2017-05-11 17:09:53,941] (ProjectService.java:handleDeployResult:1917) - Save failed!
+ WARN [2017-05-11 17:09:53,944] (ProjectService.java:handleRetrieveResult:2087) - Nothing to save to project - retrieve result is empty
+ERROR [2017-05-11 17:09:58,673] (ProjectPackageList.java:generateComponents:483) - Filepath-zip mapping is null or empty for package 'unpackaged' [null] - skipping component generation
+ WARN [2017-05-11 17:10:02,187] (ProjectService.java:handleDeployResult:1917) - Save failed!
+ WARN [2017-05-11 17:10:02,190] (ProjectService.java:handleRetrieveResult:2087) - Nothing to save to project - retrieve result is empty
+ WARN [2017-05-11 17:22:27,349] (BuilderPayload.java:filterComponentsInConflict:272) - Retrieve result contains problem messages:
+ (1) classes/Abstract.cls: In field: specific ids - no ApexClass named Abstract found
+ (2) classes/Abstract.cls-meta.xml: In field: specific ids - no ApexClass named Abstract found
+ WARN [2017-05-11 17:22:27,351] (BuilderPayload.java:filterComponentsInConflict:276) - Remote retrieve result count [0] does not equal request count [2].
+ WARN [2017-05-11 17:22:27,351] (ProjectPackageList.java:getComponentByFilePath:725) - Component not found - component list is null or empty or file path is null
+ WARN [2017-05-11 17:22:27,352] (BuilderPayload.java:conflictCheck:317) - ApexClass 'classes/Abstract.cls-meta.xml' [unpackaged] not found in remote project package list.  Assuming no conflict.
+ WARN [2017-05-11 17:22:27,353] (ProjectPackageList.java:getComponentByFilePath:725) - Component not found - component list is null or empty or file path is null
+ WARN [2017-05-11 17:22:27,354] (BuilderPayload.java:conflictCheck:317) - ApexClass 'classes/Abstract.cls' [unpackaged] not found in remote project package list.  Assuming no conflict.
+ WARN [2017-05-11 17:22:28,866] (ProjectService.java:handleDeployResult:1917) - Save failed!
+ WARN [2017-05-11 17:22:28,869] (ProjectService.java:handleRetrieveResult:2087) - Nothing to save to project - retrieve result is empty
+ERROR [2017-05-11 17:22:32,120] (ProjectPackageList.java:generateComponents:483) - Filepath-zip mapping is null or empty for package 'unpackaged' [null] - skipping component generation
+ WARN [2017-05-11 17:22:34,849] (ProjectService.java:handleDeployResult:1917) - Save failed!
+ WARN [2017-05-11 17:22:34,853] (ProjectService.java:handleRetrieveResult:2087) - Nothing to save to project - retrieve result is empty
+ WARN [2017-05-11 17:30:32,994] (BuilderPayload.java:filterComponentsInConflict:272) - Retrieve result contains problem messages:
+ (1) classes/Abstract.cls: In field: specific ids - no ApexClass named Abstract found
+ (2) classes/Abstract.cls-meta.xml: In field: specific ids - no ApexClass named Abstract found
+ WARN [2017-05-11 17:30:32,995] (BuilderPayload.java:filterComponentsInConflict:276) - Remote retrieve result count [0] does not equal request count [2].
+ WARN [2017-05-11 17:30:32,996] (ProjectPackageList.java:getComponentByFilePath:725) - Component not found - component list is null or empty or file path is null
+ WARN [2017-05-11 17:30:32,997] (BuilderPayload.java:conflictCheck:317) - ApexClass 'classes/Abstract.cls-meta.xml' [unpackaged] not found in remote project package list.  Assuming no conflict.
+ WARN [2017-05-11 17:30:32,998] (ProjectPackageList.java:getComponentByFilePath:725) - Component not found - component list is null or empty or file path is null
+ WARN [2017-05-11 17:30:32,998] (BuilderPayload.java:conflictCheck:317) - ApexClass 'classes/Abstract.cls' [unpackaged] not found in remote project package list.  Assuming no conflict.
+ WARN [2017-05-11 17:30:34,548] (ProjectService.java:handleDeployResult:1917) - Save failed!
+ WARN [2017-05-11 17:30:34,550] (ProjectService.java:handleRetrieveResult:2087) - Nothing to save to project - retrieve result is empty
+ WARN [2017-05-11 17:35:59,045] (ComponentFactory.java:getCompositeComponentFromComponent:1098) - Unable to load existing 'classes/ICICI.cls-meta.xml' from project - associated component's file resource is null.  Assuming new.
+ WARN [2017-05-11 17:35:59,880] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'Certificate': Unable to get bean for id 'Certificate'
+ WARN [2017-05-11 17:35:59,881] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'AuraDefinitionBundle': Unable to get bean for id 'AuraDefinitionBundle'
+ WARN [2017-05-11 17:35:59,889] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ExternalDataSource': Unable to get bean for id 'ExternalDataSource'
+ WARN [2017-05-11 17:35:59,891] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'NamedCredential': Unable to get bean for id 'NamedCredential'
+ WARN [2017-05-11 17:35:59,896] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'GlobalPicklist': Unable to get bean for id 'GlobalPicklist'
+ WARN [2017-05-11 17:35:59,904] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CustomFeedFilter': Unable to get bean for id 'CustomFeedFilter'
+ WARN [2017-05-11 17:35:59,918] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'FlowDefinition': Unable to get bean for id 'FlowDefinition'
+ WARN [2017-05-11 17:35:59,935] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'MatchingRules': Unable to get bean for id 'MatchingRules'
+ WARN [2017-05-11 17:35:59,939] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ChannelLayout': Unable to get bean for id 'ChannelLayout'
+ WARN [2017-05-11 17:35:59,940] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SharingRules': Unable to get bean for id 'SharingRules'
+ WARN [2017-05-11 17:35:59,946] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'DelegateGroup': Unable to get bean for id 'DelegateGroup'
+ WARN [2017-05-11 17:35:59,950] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CorsWhitelistOrigin': Unable to get bean for id 'CorsWhitelistOrigin'
+ WARN [2017-05-11 17:35:59,951] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ActionLinkGroupTemplate': Unable to get bean for id 'ActionLinkGroupTemplate'
+ WARN [2017-05-11 17:35:59,952] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'TransactionSecurityPolicy': Unable to get bean for id 'TransactionSecurityPolicy'
+ WARN [2017-05-11 17:35:59,953] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SynonymDictionary': Unable to get bean for id 'SynonymDictionary'
+ WARN [2017-05-11 17:35:59,954] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PathAssistant': Unable to get bean for id 'PathAssistant'
+ WARN [2017-05-11 17:35:59,955] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'LeadConvertSettings': Unable to get bean for id 'LeadConvertSettings'
+ WARN [2017-05-11 17:35:59,956] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PlatformCachePartition': Unable to get bean for id 'PlatformCachePartition'
+ WARN [2017-05-11 17:36:02,190] (Utils.java:loadDocument:800) - Unable to load document: C:\Users\tanmay.hole\Desktop\Git\.metadata\.plugins\org.eclipse.core.resources\.projects\Project2\com.salesforce.ide.core\packageCache.xml (The system cannot find the file specified)
+ WARN [2017-05-11 17:36:02,191] (ComponentController.java:run:425) - Unable to update cache with new component Apex Class - cache is not found
+ WARN [2017-05-11 17:36:37,864] (BuilderPayload.java:filterComponentsInConflict:272) - Retrieve result contains problem messages:
+ (1) classes/Abstract.cls: In field: specific ids - no ApexClass named Abstract found
+ (2) classes/Abstract.cls-meta.xml: In field: specific ids - no ApexClass named Abstract found
+ WARN [2017-05-11 17:36:37,865] (BuilderPayload.java:filterComponentsInConflict:276) - Remote retrieve result count [0] does not equal request count [2].
+ WARN [2017-05-11 17:36:37,866] (ProjectPackageList.java:getComponentByFilePath:725) - Component not found - component list is null or empty or file path is null
+ WARN [2017-05-11 17:36:37,867] (BuilderPayload.java:conflictCheck:317) - ApexClass 'classes/Abstract.cls-meta.xml' [unpackaged] not found in remote project package list.  Assuming no conflict.
+ WARN [2017-05-11 17:36:37,868] (ProjectPackageList.java:getComponentByFilePath:725) - Component not found - component list is null or empty or file path is null
+ WARN [2017-05-11 17:36:37,868] (BuilderPayload.java:conflictCheck:317) - ApexClass 'classes/Abstract.cls' [unpackaged] not found in remote project package list.  Assuming no conflict.
+ WARN [2017-05-11 17:36:39,441] (ProjectService.java:handleDeployResult:1917) - Save failed!
+ WARN [2017-05-11 17:36:39,444] (ProjectService.java:handleRetrieveResult:2087) - Nothing to save to project - retrieve result is empty
+ERROR [2017-05-11 17:36:44,267] (ProjectPackageList.java:generateComponents:483) - Filepath-zip mapping is null or empty for package 'unpackaged' [null] - skipping component generation
+ WARN [2017-05-11 17:36:48,003] (ProjectService.java:handleDeployResult:1917) - Save failed!
+ WARN [2017-05-11 17:36:48,006] (ProjectService.java:handleRetrieveResult:2087) - Nothing to save to project - retrieve result is empty
+ WARN [2017-05-11 17:45:40,311] (BuilderPayload.java:filterComponentsInConflict:272) - Retrieve result contains problem messages:
+ (1) classes/Abstract.cls: In field: specific ids - no ApexClass named Abstract found
+ (2) classes/Abstract.cls-meta.xml: In field: specific ids - no ApexClass named Abstract found
+ WARN [2017-05-11 17:45:40,312] (BuilderPayload.java:filterComponentsInConflict:276) - Remote retrieve result count [0] does not equal request count [2].
+ WARN [2017-05-11 17:45:40,313] (ProjectPackageList.java:getComponentByFilePath:725) - Component not found - component list is null or empty or file path is null
+ WARN [2017-05-11 17:45:40,313] (BuilderPayload.java:conflictCheck:317) - ApexClass 'classes/Abstract.cls-meta.xml' [unpackaged] not found in remote project package list.  Assuming no conflict.
+ WARN [2017-05-11 17:45:40,314] (ProjectPackageList.java:getComponentByFilePath:725) - Component not found - component list is null or empty or file path is null
+ WARN [2017-05-11 17:45:40,315] (BuilderPayload.java:conflictCheck:317) - ApexClass 'classes/Abstract.cls' [unpackaged] not found in remote project package list.  Assuming no conflict.
+ WARN [2017-05-11 17:45:41,822] (ProjectService.java:handleDeployResult:1917) - Save failed!
+ WARN [2017-05-11 17:45:41,825] (ProjectService.java:handleRetrieveResult:2087) - Nothing to save to project - retrieve result is empty
+ERROR [2017-05-11 17:45:43,626] (ProjectPackageList.java:generateComponents:483) - Filepath-zip mapping is null or empty for package 'unpackaged' [null] - skipping component generation
+ WARN [2017-05-11 17:45:47,116] (ProjectService.java:handleDeployResult:1917) - Save failed!
+ WARN [2017-05-11 17:45:47,125] (ProjectService.java:handleRetrieveResult:2087) - Nothing to save to project - retrieve result is empty
+ERROR [2017-05-11 17:46:15,622] (ProjectPackageList.java:generateComponents:483) - Filepath-zip mapping is null or empty for package 'unpackaged' [null] - skipping component generation
+ WARN [2017-05-11 17:46:18,055] (ProjectService.java:handleDeployResult:1917) - Save failed!
+ WARN [2017-05-11 17:46:18,058] (ProjectService.java:handleRetrieveResult:2087) - Nothing to save to project - retrieve result is empty
+ WARN [2017-05-11 17:46:42,094] (BuilderPayload.java:filterComponentsInConflict:272) - Retrieve result contains problem messages:
+ (1) classes/Abstract.cls: In field: specific ids - no ApexClass named Abstract found
+ (2) classes/Abstract.cls-meta.xml: In field: specific ids - no ApexClass named Abstract found
+ WARN [2017-05-11 17:46:42,096] (BuilderPayload.java:filterComponentsInConflict:276) - Remote retrieve result count [0] does not equal request count [2].
+ WARN [2017-05-11 17:46:42,097] (ProjectPackageList.java:getComponentByFilePath:725) - Component not found - component list is null or empty or file path is null
+ WARN [2017-05-11 17:46:42,097] (BuilderPayload.java:conflictCheck:317) - ApexClass 'classes/Abstract.cls-meta.xml' [unpackaged] not found in remote project package list.  Assuming no conflict.
+ WARN [2017-05-11 17:46:42,098] (ProjectPackageList.java:getComponentByFilePath:725) - Component not found - component list is null or empty or file path is null
+ WARN [2017-05-11 17:46:42,099] (BuilderPayload.java:conflictCheck:317) - ApexClass 'classes/Abstract.cls' [unpackaged] not found in remote project package list.  Assuming no conflict.
+ WARN [2017-05-11 17:46:43,643] (ProjectService.java:handleDeployResult:1917) - Save failed!
+ WARN [2017-05-11 17:46:43,648] (ProjectService.java:handleRetrieveResult:2087) - Nothing to save to project - retrieve result is empty
+ERROR [2017-05-11 17:46:47,837] (ProjectPackageList.java:generateComponents:483) - Filepath-zip mapping is null or empty for package 'unpackaged' [null] - skipping component generation
+ WARN [2017-05-11 17:46:49,975] (ProjectService.java:handleDeployResult:1917) - Save failed!
+ WARN [2017-05-11 17:46:49,977] (ProjectService.java:handleRetrieveResult:2087) - Nothing to save to project - retrieve result is empty
+ WARN [2017-05-11 17:47:26,370] (BuilderPayload.java:filterComponentsInConflict:272) - Retrieve result contains problem messages:
+ (1) classes/Abstract.cls: In field: specific ids - no ApexClass named Abstract found
+ (2) classes/Abstract.cls-meta.xml: In field: specific ids - no ApexClass named Abstract found
+ WARN [2017-05-11 17:47:26,372] (BuilderPayload.java:filterComponentsInConflict:276) - Remote retrieve result count [0] does not equal request count [2].
+ WARN [2017-05-11 17:47:26,372] (ProjectPackageList.java:getComponentByFilePath:725) - Component not found - component list is null or empty or file path is null
+ WARN [2017-05-11 17:47:26,373] (BuilderPayload.java:conflictCheck:317) - ApexClass 'classes/Abstract.cls-meta.xml' [unpackaged] not found in remote project package list.  Assuming no conflict.
+ WARN [2017-05-11 17:47:26,374] (ProjectPackageList.java:getComponentByFilePath:725) - Component not found - component list is null or empty or file path is null
+ WARN [2017-05-11 17:47:26,374] (BuilderPayload.java:conflictCheck:317) - ApexClass 'classes/Abstract.cls' [unpackaged] not found in remote project package list.  Assuming no conflict.
+ WARN [2017-05-11 17:47:27,891] (ProjectService.java:handleDeployResult:1917) - Save failed!
+ WARN [2017-05-11 17:47:27,894] (ProjectService.java:handleRetrieveResult:2087) - Nothing to save to project - retrieve result is empty
+ERROR [2017-05-11 17:47:31,307] (ProjectPackageList.java:generateComponents:483) - Filepath-zip mapping is null or empty for package 'unpackaged' [null] - skipping component generation
+ WARN [2017-05-11 17:47:33,844] (ProjectService.java:handleDeployResult:1917) - Save failed!
+ WARN [2017-05-11 17:47:33,852] (ProjectService.java:handleRetrieveResult:2087) - Nothing to save to project - retrieve result is empty
+ WARN [2017-05-11 17:49:03,997] (ComponentFactory.java:getCompositeComponentFromComponent:1098) - Unable to load existing 'classes/Bank.cls-meta.xml' from project - associated component's file resource is null.  Assuming new.
+ WARN [2017-05-11 17:49:04,723] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'Certificate': Unable to get bean for id 'Certificate'
+ WARN [2017-05-11 17:49:04,725] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'AuraDefinitionBundle': Unable to get bean for id 'AuraDefinitionBundle'
+ WARN [2017-05-11 17:49:04,729] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ExternalDataSource': Unable to get bean for id 'ExternalDataSource'
+ WARN [2017-05-11 17:49:04,730] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'NamedCredential': Unable to get bean for id 'NamedCredential'
+ WARN [2017-05-11 17:49:04,733] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'GlobalPicklist': Unable to get bean for id 'GlobalPicklist'
+ WARN [2017-05-11 17:49:04,741] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CustomFeedFilter': Unable to get bean for id 'CustomFeedFilter'
+ WARN [2017-05-11 17:49:04,756] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'FlowDefinition': Unable to get bean for id 'FlowDefinition'
+ WARN [2017-05-11 17:49:04,772] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'MatchingRules': Unable to get bean for id 'MatchingRules'
+ WARN [2017-05-11 17:49:04,775] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ChannelLayout': Unable to get bean for id 'ChannelLayout'
+ WARN [2017-05-11 17:49:04,776] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SharingRules': Unable to get bean for id 'SharingRules'
+ WARN [2017-05-11 17:49:04,781] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'DelegateGroup': Unable to get bean for id 'DelegateGroup'
+ WARN [2017-05-11 17:49:04,784] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CorsWhitelistOrigin': Unable to get bean for id 'CorsWhitelistOrigin'
+ WARN [2017-05-11 17:49:04,785] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ActionLinkGroupTemplate': Unable to get bean for id 'ActionLinkGroupTemplate'
+ WARN [2017-05-11 17:49:04,786] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'TransactionSecurityPolicy': Unable to get bean for id 'TransactionSecurityPolicy'
+ WARN [2017-05-11 17:49:04,786] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SynonymDictionary': Unable to get bean for id 'SynonymDictionary'
+ WARN [2017-05-11 17:49:04,788] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PathAssistant': Unable to get bean for id 'PathAssistant'
+ WARN [2017-05-11 17:49:04,789] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'LeadConvertSettings': Unable to get bean for id 'LeadConvertSettings'
+ WARN [2017-05-11 17:49:04,790] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PlatformCachePartition': Unable to get bean for id 'PlatformCachePartition'
+ WARN [2017-05-11 17:49:07,962] (Utils.java:loadDocument:800) - Unable to load document: C:\Users\tanmay.hole\Desktop\Git\.metadata\.plugins\org.eclipse.core.resources\.projects\Project2\com.salesforce.ide.core\packageCache.xml (The system cannot find the file specified)
+ WARN [2017-05-11 17:49:07,963] (ComponentController.java:run:425) - Unable to update cache with new component Apex Class - cache is not found
+ WARN [2017-05-11 17:49:56,684] (BaseRefactorController.java:testDeploy:146) - Component 'destructiveChanges.xml' failed test delete: 'No ApexClass named: Abstract found'. will be deleted locally only.
+ WARN [2017-05-11 17:49:59,526] (ProjectService.java:handleRetrieveResult:2087) - Nothing to save to project - retrieve result is empty
+ERROR [2017-05-11 17:49:59,528] (DeleteRefactorController.java:performRemoteDelete:278) - Remote delete failed with the following message. Will only delete locally.
+  destructiveChanges.xml: No ApexClass named: Abstract found
+  package.xml: null
+ WARN [2017-05-11 20:02:36,029] (ComponentFactory.java:getCompositeComponentFromComponent:1098) - Unable to load existing 'classes/Occurrence.cls-meta.xml' from project - associated component's file resource is null.  Assuming new.
+ WARN [2017-05-11 20:02:38,489] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'Certificate': Unable to get bean for id 'Certificate'
+ WARN [2017-05-11 20:02:38,491] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'AuraDefinitionBundle': Unable to get bean for id 'AuraDefinitionBundle'
+ WARN [2017-05-11 20:02:38,499] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ExternalDataSource': Unable to get bean for id 'ExternalDataSource'
+ WARN [2017-05-11 20:02:38,500] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'NamedCredential': Unable to get bean for id 'NamedCredential'
+ WARN [2017-05-11 20:02:38,505] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'GlobalPicklist': Unable to get bean for id 'GlobalPicklist'
+ WARN [2017-05-11 20:02:38,515] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CustomFeedFilter': Unable to get bean for id 'CustomFeedFilter'
+ WARN [2017-05-11 20:02:38,529] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'FlowDefinition': Unable to get bean for id 'FlowDefinition'
+ WARN [2017-05-11 20:02:38,545] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'MatchingRules': Unable to get bean for id 'MatchingRules'
+ WARN [2017-05-11 20:02:38,548] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ChannelLayout': Unable to get bean for id 'ChannelLayout'
+ WARN [2017-05-11 20:02:38,549] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SharingRules': Unable to get bean for id 'SharingRules'
+ WARN [2017-05-11 20:02:38,554] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'DelegateGroup': Unable to get bean for id 'DelegateGroup'
+ WARN [2017-05-11 20:02:38,557] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'CorsWhitelistOrigin': Unable to get bean for id 'CorsWhitelistOrigin'
+ WARN [2017-05-11 20:02:38,558] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'ActionLinkGroupTemplate': Unable to get bean for id 'ActionLinkGroupTemplate'
+ WARN [2017-05-11 20:02:38,559] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'TransactionSecurityPolicy': Unable to get bean for id 'TransactionSecurityPolicy'
+ WARN [2017-05-11 20:02:38,560] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'SynonymDictionary': Unable to get bean for id 'SynonymDictionary'
+ WARN [2017-05-11 20:02:38,561] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PathAssistant': Unable to get bean for id 'PathAssistant'
+ WARN [2017-05-11 20:02:38,561] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'LeadConvertSettings': Unable to get bean for id 'LeadConvertSettings'
+ WARN [2017-05-11 20:02:38,562] (ComponentFactory.java:getComponentBean:1149) - Unable to get component for id 'PlatformCachePartition': Unable to get bean for id 'PlatformCachePartition'
+ WARN [2017-05-11 20:02:39,074] (ComponentController.java:defaultPreSaveProcess:366) - Found remote instance of Apex Class
+ WARN [2017-05-11 20:02:41,958] (Utils.java:loadDocument:800) - Unable to load document: C:\Users\tanmay.hole\Desktop\Git\.metadata\.plugins\org.eclipse.core.resources\.projects\Project2\com.salesforce.ide.core\packageCache.xml (The system cannot find the file specified)
+ WARN [2017-05-11 20:02:41,959] (ComponentController.java:run:425) - Unable to update cache with new component Apex Class - cache is not found
+ WARN [2017-05-11 20:48:50,653] (ProjectService.java:handleDeployResult:1917) - Save failed!
+ WARN [2017-05-11 20:48:50,655] (ProjectService.java:handleRetrieveResult:2087) - Nothing to save to project - retrieve result is empty

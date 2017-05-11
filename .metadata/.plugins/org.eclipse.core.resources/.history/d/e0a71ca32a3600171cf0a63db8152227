@@ -1,0 +1,21 @@
+public with sharing class Operation 
+{
+    public static void performOperation(String s)
+    {
+        String target ='@';
+        String replacewith ='A';
+        
+        String s2 = s.replace(target,replacewith);
+        system.debug(s2);
+        
+        String substring = s.substring(11);
+        system.debug(substring);
+        
+        String Upper = s2.toUpperCase();
+        system.debug(Upper);
+        
+        String Lower = Upper.toLowerCase();
+        system.debug(Lower);
+    }
+    
+}

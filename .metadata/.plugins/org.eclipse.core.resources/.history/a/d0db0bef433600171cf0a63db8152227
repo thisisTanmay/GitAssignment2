@@ -1,0 +1,6 @@
+public class ICICI extends Bank{
+    public void ROI()
+    {
+        system.debug(9.8+'%');
+    }
+}

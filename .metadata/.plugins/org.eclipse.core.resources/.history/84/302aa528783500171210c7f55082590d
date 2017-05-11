@@ -1,0 +1,7 @@
+public with sharing class Print 
+{
+    public static void display()
+    {
+        System.Debug("Hello World");
+    }
+}

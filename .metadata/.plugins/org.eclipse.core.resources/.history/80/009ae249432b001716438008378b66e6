@@ -1,0 +1,134 @@
+import java.util.Scanner;
+import java.io.*;
+
+/*
+ * Class:Account 
+ * Here we have implemented Deposit  
+ * function
+ */
+class Account 
+{
+	int acc_no;
+	public String type;// Type of Bank account
+	int current_balance = 1000;
+	int amount;
+	String test;
+
+	// Deposit function @parameter Amount to deposit
+	void Deposit(int amount) 
+	{
+		if(amount>0)
+		{
+		this.amount = amount;
+		System.out.println("\nThe total Amount deposited = " + amount);
+		System.out.println("\nCurrent balance in Account = "
+				+ (amount + this.current_balance));
+		}
+		
+		else
+		{
+			System.out.println("Enter a valid amount");
+		}
+	}
+}
+
+/*
+ * Class:Customer it is derived class of Account 
+ * Here we have implemented createAccount
+ * function
+ */
+class Customer extends Account {
+	public String name;
+
+	Customer() {
+		current_balance = 1000;
+	}
+
+	// This function takes Name, Acc Type and Acc number as Input
+	void createAccount(String name, String type, int acc_no) {
+		this.name = name;
+		this.type = type;
+		this.acc_no = acc_no;
+		System.out.println("\n Details of created account \nName of User\t"
+				+ name + "\nType of Account\t" + type + "\nAccount No\t"
+				+ acc_no + "\nCurrent Balance\t" + current_balance);
+	}
+
+}
+/*
+ * Class:Loan to calculate Compound Interest
+ * 
+ */
+class Loan {
+	double interest;
+	int p; // the principal amount
+	int t; // the number of years the money is borrowed for
+
+	double r = 0.12; // the annual rate of Interest
+	int n = 1; // the number of times that interest is compounded per year
+
+	public Scanner sc = new Scanner(System.in);
+
+	// This function takes principal and number of years as Input
+	void getDetails() {
+
+		System.out.println("Enter principle amount");
+		p = sc.nextInt();
+		System.out.println("Enter number of years money is borrowed or invested");
+		t = sc.nextInt();
+	}
+
+	// Function to calculate interest
+	double calculateInterest() {
+
+		interest = (p * Math.pow(1 + (r / n), (n * t)) - p);
+
+		return interest;
+	}
+
+}
+/*Class: BankingSystem is the main class 
+ * It implements two customer class objects
+ */
+public class BankingSystem {
+
+	public static void main(String[] args) {
+
+		Customer ObjC1 = new Customer();// Object creation of Customer 1&2
+		Customer ObjC2 = new Customer();
+
+		System.out.println("\nOpen Saving Account\n");
+		ObjC1.createAccount("ABC", "Saving", 512);
+
+		System.out.println("\nOpening Current Account\n");
+		ObjC2.createAccount("EFG", "Saving", 693);
+
+		// Object creation of Account class
+		Account accObj = new Account();
+		System.out.println("\nFor customer1");
+		ObjC1.Deposit(-2000);
+
+		System.out.println("\nFor customer2");
+		ObjC2.Deposit(1000);
+
+		// Loan class Object
+
+		Loan loanObj = new Loan();
+		System.out.println("\n\t\tEnter Details to calculate Interest \n\n");
+		//Exceptional Handling
+		try {
+			loanObj.getDetails();
+			System.out.println("\nCompound Interest = "+ loanObj.calculateInterest());
+		} 
+		catch(Exception e)
+		{
+			//e.printStackTrace();
+		}
+		
+		finally {
+			System.out.println("Please Enter a Valid number");
+		}
+
+	}
+
+}

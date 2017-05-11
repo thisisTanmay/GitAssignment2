@@ -1,0 +1,11 @@
+public with sharing class Operation 
+{
+    public static void performOperation(String s)
+    {
+        String target ='@';
+        String replacewith ='A';
+        String s2 = s.replace(target,replacewith);
+        system.debug(s2);
+    }
+    
+}

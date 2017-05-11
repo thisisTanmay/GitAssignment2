@@ -1,0 +1,15 @@
+public with sharing class Fibonacci {
+    public static void displayResult(Integer n)
+    {
+        Integer n1=0,n2=1,n3=0;
+        system.debug(n1+'\n'+n2);
+        for(Integer i=2; i<n; i++)
+        {
+            n3=n1+n2;
+            system.debug(' '+n3);
+            n1=n2;
+            n2=n3;
+        }
+    }
+    
+}

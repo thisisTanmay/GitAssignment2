@@ -1,0 +1,8 @@
+public abstract class Bank
+{
+    public void virtual abstract ROI()
+    {
+        
+    }
+    
+}

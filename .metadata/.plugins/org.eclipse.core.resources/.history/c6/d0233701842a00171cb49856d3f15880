@@ -1,0 +1,30 @@
+interface Bank
+	//Interface Class
+	{  
+		float rateOfInterest();  
+	} 
+
+class Citi implements Bank
+	{  
+		//Function Implemented from Interface ROI for Citi Bank
+		public float rateOfInterest()
+		{
+			return 9.15f;
+		}  
+	}  
+class Axis implements Bank
+	{  
+		//Function Implemented from Interface ROI for Citi Bank
+		public float rateOfInterest()
+		{
+			return 9.7f;
+		}  
+	}  
+class Interface
+	{  
+		public static void main(String[] args)
+			{  
+				Citi c=new Citi();//citi bank object creation   
+				System.out.println("ROI: "+c.rateOfInterest());  
+			}
+	}  
