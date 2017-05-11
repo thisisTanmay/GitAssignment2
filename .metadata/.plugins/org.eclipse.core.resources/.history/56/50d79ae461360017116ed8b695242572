@@ -2,13 +2,13 @@ public with sharing class Occurrence {
     public static void Count(String s)
     {
         String tolower = s.toLowerCase();
-        String dws = tolower.deleteWhitespace();
+        dws = tolower.deleteWhitespace();
         String [] str = dws.split('');
-        Set<String> set1 =new Set<String>(str);
+        Set<String> set1 = Set<String>(str);
         
-        for(String character:set1)
+        for(String character=0; character<set1.length; character++)
         {
-            system.debug(character+'\t'+dws.countMatches(character));
+            system.debug(ch+'\t'+dws.countMatches(ch));
         }
         
     }
