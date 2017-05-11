@@ -756,3 +756,14 @@ ERROR [2017-05-11 17:49:59,528] (DeleteRefactorController.java:performRemoteDele
  WARN [2017-05-11 20:02:41,959] (ComponentController.java:run:425) - Unable to update cache with new component Apex Class - cache is not found
  WARN [2017-05-11 20:48:50,653] (ProjectService.java:handleDeployResult:1917) - Save failed!
  WARN [2017-05-11 20:48:50,655] (ProjectService.java:handleRetrieveResult:2087) - Nothing to save to project - retrieve result is empty
+ WARN [2017-05-11 21:21:54,955] (ProjectService.java:handleDeployResult:1917) - Save failed!
+ WARN [2017-05-11 21:21:54,995] (ProjectService.java:handleRetrieveResult:2087) - Nothing to save to project - retrieve result is empty
+ WARN [2017-05-11 21:22:23,839] (ProjectService.java:handleDeployResult:1917) - Save failed!
+ WARN [2017-05-11 21:22:23,849] (ProjectService.java:handleRetrieveResult:2087) - Nothing to save to project - retrieve result is empty
+ WARN [2017-05-11 21:23:08,522] (ProjectService.java:handleDeployResult:1917) - Save failed!
+ WARN [2017-05-11 21:23:08,542] (ProjectService.java:handleRetrieveResult:2087) - Nothing to save to project - retrieve result is empty
+ WARN [2017-05-11 21:23:32,747] (ProjectService.java:handleDeployResult:1917) - Save failed!
+ WARN [2017-05-11 21:23:32,753] (ProjectService.java:handleRetrieveResult:2087) - Nothing to save to project - retrieve result is empty
+ WARN [2017-05-11 21:32:48,589] (ConnectionFactory.java:clearCache:220) - Clearing the following cached connections
+ WARN [2017-05-11 21:32:48,589] (DescribeObjectRegistry.java:clearCache:660) - No cached describes
+ WARN [2017-05-11 21:32:48,589] (MetadataFactory.java:clearCache:128) - Clearing the following cached metadata stubs

@@ -3536,3 +3536,15 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 !ENTRY com.salesforce.ide.core 2 0 2017-05-11 21:23:32.753
 !MESSAGE  WARN [2017-05-11 21:23:32,753] (ProjectService.java:handleRetrieveResult:2087) - Nothing to save to project - retrieve result is empty
 
+
+!ENTRY com.salesforce.ide.core 2 0 2017-05-11 21:32:48.589
+!MESSAGE  WARN [2017-05-11 21:32:48,589] (ConnectionFactory.java:clearCache:220) - Clearing the following cached connections
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-05-11 21:32:48.589
+!MESSAGE  WARN [2017-05-11 21:32:48,589] (DescribeObjectRegistry.java:clearCache:660) - No cached describes
+
+
+!ENTRY com.salesforce.ide.core 2 0 2017-05-11 21:32:48.589
+!MESSAGE  WARN [2017-05-11 21:32:48,589] (MetadataFactory.java:clearCache:128) - Clearing the following cached metadata stubs
+
